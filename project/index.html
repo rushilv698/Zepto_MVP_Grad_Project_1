@@ -2257,9 +2257,9 @@ class Component extends DCLogic {
     let subcategoryProducts = [];
     if (isSubcategoryView) {
       if (activeSubcategory === 'pet-toys') {
-        subcategoryProducts = e(db.filter(p => p.category === 'pet-care' && p.name && (p.name.toLowerCase().includes('toy') || p.name.toLowerCase().includes('scratcher'))));
+        subcategoryProducts = e(db.filter(p => p.categories && p.categories.includes('pet-care') && p.name && (p.name.toLowerCase().includes('toy') || p.name.toLowerCase().includes('scratcher'))));
       } else if (activeSubcategory === 'pet-food') {
-        subcategoryProducts = e(db.filter(p => p.category === 'pet-care' && p.name && (p.name.toLowerCase().includes('food') || p.name.toLowerCase().includes('treat') || p.name.toLowerCase().includes('biscuit') || p.name.toLowerCase().includes('bowl') || p.name.toLowerCase().includes('chew'))));
+        subcategoryProducts = e(db.filter(p => p.categories && p.categories.includes('pet-care') && p.name && (p.name.toLowerCase().includes('food') || p.name.toLowerCase().includes('treat') || p.name.toLowerCase().includes('biscuit') || p.name.toLowerCase().includes('bowl') || p.name.toLowerCase().includes('chew'))));
       } else {
         subcategoryProducts = e(db.filter(p => p.subcategory === activeSubcategory));
       }
