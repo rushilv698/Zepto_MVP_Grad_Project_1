@@ -1,0 +1,1524 @@
+Line 95: count=1 | <div style="width:393px;max-width:100%;height:852px;background:#fff;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',system-ui,sans-serif;color:#1a1a1a;overflow:hidden;display:flex;flex-direction:column;border-radius:44px;box-shadow:0 0 0 3px #333,0 0 60px rgba(0,0,0,0.6);position:relative">
+Line 96: count=1 | 
+Line 97: count=1 | <!-- Status bar -->
+Line 98: count=2 | <div style="flex:none;height:54px;display:flex;align-items:center;justify-content:center;background:{{ computedStatusBg }};z-index:10;padding: 14px 24px 0 24px;transition:background 0.2s">
+Line 99: count=2 | <svg width="100%" height="100%" viewBox="25 15 375 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition:fill 0.2s, stroke 0.2s">
+Line 100: count=2 | <path d="M41.8601 35.2354C40.866 35.2354 40.0128 34.9839 39.3004 34.4808C38.5921 33.9737 38.0468 33.2433 37.6644 32.2894C37.2861 31.3316 37.0969 30.1785 37.0969 28.8303C37.101 27.482 37.2921 26.335 37.6705 25.3892C38.0528 24.4394 38.5981 23.715 39.3065 23.2159C40.0188 22.7169 40.87 22.4673 41.8601 22.4673C42.8501 22.4673 43.7013 22.7169 44.4137 23.2159C45.1261 23.715 45.6714 24.4394 46.0497 25.3892C46.4321 26.339 46.6232 27.486 46.6232 28.8303C46.6232 30.1825 46.4321 31.3376 46.0497 32.2955C45.6714 33.2493 45.1261 33.9777 44.4137 34.4808C43.7054 34.9839 42.8542 35.2354 41.8601 35.2354ZM41.8601 33.3459C42.6328 33.3459 43.2425 32.9656 43.6893 32.2049C44.14 31.4402 44.3654 30.3153 44.3654 28.8303C44.3654 27.8482 44.2628 27.0232 44.0575 26.3551C43.8523 25.687 43.5625 25.1839 43.1882 24.8459C42.8139 24.5038 42.3712 24.3327 41.8601 24.3327C41.0914 24.3327 40.4837 24.7151 40.0369 25.4798C39.5902 26.2404 39.3648 27.3572 39.3608 28.8303C39.3568 29.8163 39.4554 30.6454 39.6566 31.3175C39.8619 31.9896 40.1516 32.4967 40.5259 32.8388C40.9002 33.1768 41.3449 33.3459 41.8601 33.3459ZM52.4213 22.4673C53.0129 22.4714 53.5884 22.576 54.1478 22.7812C54.7113 22.9825 55.2184 23.3125 55.6691 23.7713C56.1199 24.2261 56.4781 24.8358 56.7437 25.6005C57.0093 26.3652 57.1421 27.311 57.1421 28.4379C57.1462 29.5004 57.0335 30.4502 56.8041 31.2873C56.5787 32.1204 56.2547 32.8247 55.8321 33.4002C55.4095 33.9757 54.9004 34.4144 54.3048 34.7163C53.7091 35.0181 53.039 35.169 52.2945 35.169C51.5137 35.169 50.8215 35.0161 50.2178 34.7102C49.6181 34.4044 49.1331 33.9858 48.7629 33.4545C48.3926 32.9233 48.1652 32.3156 48.0807 31.6314H50.2842C50.3969 32.1224 50.6263 32.5128 50.9724 32.8026C51.3225 33.0883 51.7632 33.2312 52.2945 33.2312C53.1517 33.2312 53.8118 32.8589 54.2746 32.1143C54.7374 31.3698 54.9688 30.3355 54.9688 29.0114H54.8843C54.6871 29.3655 54.4316 29.6714 54.1176 29.929C53.8037 30.1825 53.4475 30.3777 53.0491 30.5146C52.6547 30.6514 52.2361 30.7198 51.7934 30.7198C51.069 30.7198 50.417 30.5468 49.8374 30.2006C49.2619 29.8545 48.8051 29.3796 48.4671 28.7759C48.133 28.1722 47.964 27.482 47.96 26.7053C47.96 25.9003 48.1451 25.1779 48.5154 24.538C48.8896 23.8941 49.4108 23.387 50.0789 23.0167C50.747 22.6424 51.5278 22.4593 52.4213 22.4673ZM52.4273 24.2784C51.9926 24.2784 51.6002 24.3851 51.2501 24.5984C50.904 24.8076 50.6303 25.0934 50.4291 25.4556C50.2319 25.8138 50.1333 26.2143 50.1333 26.657C50.1373 27.0956 50.2359 27.4941 50.4291 27.8523C50.6263 28.2105 50.8939 28.4942 51.232 28.7035C51.5741 28.9128 51.9645 29.0174 52.4031 29.0174C52.7291 29.0174 53.033 28.955 53.3147 28.8303C53.5964 28.7055 53.8419 28.5324 54.0512 28.3111C54.2645 28.0857 54.4295 27.8301 54.5463 27.5444C54.667 27.2586 54.7253 26.9568 54.7213 26.6388C54.7213 26.2163 54.6207 25.8259 54.4195 25.4677C54.2223 25.1095 53.9506 24.8217 53.6045 24.6044C53.2624 24.3871 52.87 24.2784 52.4273 24.2784ZM60.0228 33.5149C59.6566 33.5149 59.3427 33.3861 59.0811 33.1286C58.8195 32.867 58.6907 32.553 58.6947 32.1868C58.6907 31.8246 58.8195 31.5147 59.0811 31.2571C59.3427 30.9995 59.6566 30.8707 60.0228 30.8707C60.377 30.8707 60.6849 30.9995 60.9465 31.2571C61.2121 31.5147 61.3469 31.8246 61.3509 32.1868C61.3469 32.4323 61.2825 32.6557 61.1578 32.8569C61.037 33.0581 60.876 33.2191 60.6748 33.3398C60.4776 33.4566 60.2603 33.5149 60.0228 33.5149ZM60.0228 27.3874C59.6566 27.3874 59.3427 27.2586 59.0811 27.0011C58.8195 26.7395 58.6907 26.4255 58.6947 26.0593C58.6907 25.6971 58.8195 25.3872 59.0811 25.1296C59.3427 24.868 59.6566 24.7372 60.0228 24.7372C60.377 24.7372 60.6849 24.868 60.9465 25.1296C61.2121 25.3872 61.3469 25.6971 61.3509 26.0593C61.3469 26.3008 61.2825 26.5221 61.1578 26.7234C61.037 26.9246 60.876 27.0856 60.6748 27.2063C60.4776 27.3271 60.2603 27.3874 60.0228 27.3874ZM62.8597 32.706V30.9251L68.1058 22.6364H69.5909V25.1719H68.6854L65.1538 30.7681V30.8647H72.4766V32.706H62.8597ZM68.7578 35V32.1626L68.782 31.3658V22.6364H70.8949V35H68.7578ZM78.7681 22.6364V35H76.5284V24.8157H76.456L73.5643 26.663V24.6104L76.6371 22.6364H78.7681Z" fill="{{ computedStatusTextColor }}"/>
+Line 101: count=2 | <path fill-rule="evenodd" clip-rule="evenodd" d="M334.503 22.4999H333.337C332.692 22.4999 332.17 23.0036 332.17 23.6249V33.3749C332.17 33.9963 332.692 34.4999 333.337 34.4999H334.503C335.148 34.4999 335.67 33.9963 335.67 33.3749V23.6249C335.67 23.0036 335.148 22.4999 334.503 22.4999ZM327.846 25.1251H329.013C329.657 25.1251 330.18 25.6288 330.18 26.2501V33.3751C330.18 33.9964 329.657 34.5001 329.013 34.5001H327.846C327.202 34.5001 326.68 33.9964 326.68 33.3751V26.2501C326.68 25.6288 327.202 25.1251 327.846 25.1251ZM323.523 27.7499H322.356C321.712 27.7499 321.19 28.2535 321.19 28.8749V33.3749C321.19 33.9962 321.712 34.4999 322.356 34.4999H323.523C324.167 34.4999 324.69 33.9962 324.69 33.3749V28.8749C324.69 28.2535 324.167 27.7499 323.523 27.7499ZM318.033 29.9998H316.866C316.222 29.9998 315.699 30.5035 315.699 31.1248V33.3748C315.699 33.9961 316.222 34.4998 316.866 34.4998H318.033C318.677 34.4998 319.199 33.9961 319.199 33.3748V31.1248C319.199 30.5035 318.677 29.9998 318.033 29.9998Z" fill="{{ computedStatusTextColor }}"/>
+Line 102: count=2 | <path fill-rule="evenodd" clip-rule="evenodd" d="M351.17 24.846C353.637 24.8461 356.009 25.8167 357.797 27.5571C357.931 27.6915 358.147 27.6898 358.279 27.5533L359.566 26.2234C359.633 26.1542 359.671 26.0604 359.67 25.9629C359.669 25.8653 359.631 25.772 359.563 25.7036C354.871 21.0988 347.469 21.0988 342.777 25.7036C342.709 25.772 342.671 25.8652 342.67 25.9628C342.669 26.0603 342.707 26.1541 342.774 26.2234L344.061 27.5533C344.193 27.69 344.409 27.6917 344.543 27.5571C346.331 25.8166 348.704 24.846 351.17 24.846ZM351.17 29.1727C352.526 29.1726 353.832 29.6884 354.837 30.62C354.973 30.7522 355.187 30.7493 355.319 30.6135L356.605 29.2836C356.672 29.2139 356.71 29.1192 356.709 29.0209C356.708 28.9226 356.669 28.8287 356.599 28.7604C353.54 25.8463 348.803 25.8463 345.744 28.7604C345.675 28.8287 345.635 28.9226 345.635 29.021C345.634 29.1193 345.671 29.214 345.739 29.2836L347.024 30.6135C347.157 30.7493 347.371 30.7522 347.506 30.62C348.51 29.689 349.816 29.1732 351.17 29.1727ZM353.745 32.084C353.747 32.1826 353.709 32.2777 353.64 32.3468L351.417 34.6445C351.352 34.712 351.263 34.75 351.17 34.75C351.078 34.75 350.989 34.712 350.924 34.6445L348.7 32.3468C348.631 32.2776 348.594 32.1825 348.596 32.0839C348.598 31.9853 348.639 31.8919 348.711 31.8258C350.131 30.596 352.21 30.596 353.63 31.8258C353.701 31.892 353.743 31.9854 353.745 32.084Z" fill="{{ computedStatusTextColor }}"/>
+Line 103: count=2 | <rect opacity="0.4" x="367.17" y="22.5" width="24" height="12" rx="3.5" stroke="{{ computedStatusTextColor }}"/>
+Line 104: count=2 | <path opacity="0.5" d="M392.67 26.5V30.5C393.476 30.1612 394 29.3731 394 28.5C394 27.6269 393.476 26.8388 392.67 26.5Z" fill="{{ computedStatusTextColor }}"/>
+Line 105: count=2 | <rect x="368.67" y="24" width="17" height="9" rx="2" fill="{{ computedStatusTextColor }}"/>
+Line 106: count=2 | </svg>
+Line 107: count=1 | </div>
+Line 108: count=1 | 
+Line 109: count=1 | <!-- Scroll area -->
+Line 110: count=2 | <div onScroll="{{ handleScroll }}" style="flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain">
+Line 111: count=2 | 
+Line 112: count=2 | <!-- ==================== HOME ==================== -->
+Line 113: count=2 | <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+Line 114: count=3 | <div data-screen-label="Home">
+Line 115: count=3 | 
+Line 116: count=3 | <!-- CATEGORIES bottom nav screen -->
+Line 117: count=3 | <sc-if value="{{ isNavCategories }}" hint-placeholder-val="{{ false }}">
+Line 118: count=4 | <div style="background:#fff;padding:16px">
+Line 119: count=4 | <div style="font-size:20px;font-weight:800;margin-bottom:16px">All Categories</div>
+Line 120: count=5 | <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+Line 121: count=5 | <sc-for list="{{ categoryList }}" as="cat" hint-placeholder-count="12">
+Line 122: count=6 | <div onClick="{{ cat.onClick }}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 8px;background:{{ cat.bg }};border-radius:16px;cursor:pointer" style-active="opacity:0.8;transform:scale(0.97)">
+Line 123: count=6 | <span style="font-size:32px">{{ cat.emoji }}</span>
+Line 124: count=6 | <span style="font-size:11px;font-weight:600;color:#1a1a1a;text-align:center;line-height:1.3">{{ cat.name }}</span>
+Line 125: count=5 | </div>
+Line 126: count=5 | </sc-for>
+Line 127: count=4 | </div>
+Line 128: count=3 | </div>
+Line 129: count=3 | <div style="height:140px"></div>
+Line 130: count=3 | </sc-if>
+Line 131: count=3 | 
+Line 132: count=3 | <!-- BUY AGAIN bottom nav screen -->
+Line 133: count=3 | <sc-if value="{{ isNavBuyAgain }}" hint-placeholder-val="{{ false }}">
+Line 134: count=4 | <div style="background:#f5f5f5;min-height:100vh;padding-bottom:100px;">
+Line 135: count=4 | <!-- Buy Again Header & Banner -->
+Line 136: count=5 | <div style="background:#fff;">
+Line 137: count=6 | <div style="padding:12px 16px;display:flex;align-items:center;justify-content:center;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.05);background:#fff;margin-bottom:16px;">
+Line 138: count=6 | <div style="font-size:18px;font-weight:800;color:#1a1a1a">Buy Again</div>
+Line 139: count=7 | <div style="position:absolute;right:16px;display:flex;align-items:center;gap:16px">
+Line 140: count=7 | <!-- Heart Icon -->
+Line 141: count=7 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+Line 142: count=7 | <!-- Search Icon -->
+Line 143: count=7 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+Line 144: count=6 | </div>
+Line 145: count=5 | </div>
+Line 146: count=5 | 
+Line 147: count=6 | <div style="padding:0 16px;">
+Line 148: count=6 | <!-- Explore Banner -->
+Line 149: count=7 | <div style="background:#D2B3FB;border-radius:16px;padding:0 0 16px 0;overflow:hidden;margin-bottom:16px;">
+Line 150: count=7 | <!-- Banner Image -->
+Line 151: count=7 | <img onClick="{{ openCategoryDiscovery }}" style="cursor:pointer;width:100%;height:auto;display:block;margin-bottom:16px;" src="assets/png/explore_banner.png" onerror="this.style.display='none'" />
+Line 152: count=7 | 
+Line 153: count=7 | <!-- Text -->
+Line 154: count=7 | <div style="font-size:18px;font-weight:800;color:#fff;margin-bottom:12px;padding:0 16px;">New categories to explore</div>
+Line 155: count=7 | 
+Line 156: count=7 | <!-- 6 Product Listings -->
+Line 157: count=8 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;padding:0 16px;">
+Line 158: count=8 | <sc-for list="{{ exploreProducts }}" as="p" hint-placeholder-count="6">
+Line 159: count=9 | <div style="width:100%; min-width:0; position:relative">
+Line 160: count=9 | <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
+Line 161: count=9 | <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#E1BEE7;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
+Line 162: count=9 | </sc-if>
+Line 163: count=10 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 164: count=10 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1" onerror="this.style.display='none'" />
+Line 165: count=10 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 166: count=11 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3);z-index:3" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 167: count=11 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 168: count=10 | </div>
+Line 169: count=10 | </sc-if>
+Line 170: count=10 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 171: count=11 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15);z-index:3">
+Line 172: count=11 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 173: count=11 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 174: count=11 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 175: count=10 | </div>
+Line 176: count=10 | </sc-if>
+Line 177: count=9 | </div>
+Line 178: count=10 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 179: count=10 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 180: count=10 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 181: count=10 | <span style="font-size:12px;color:rgba(255,255,255,0.5);text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 182: count=10 | </sc-if>
+Line 183: count=9 | </div>
+Line 184: count=9 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 185: count=9 | <div style="font-size:12px;font-weight:700;color:#4ade80;margin-top:2px">{{ p.offLabel }}</div>
+Line 186: count=9 | </sc-if>
+Line 187: count=9 | <div style="font-size:13px;font-weight:600;color:#fff;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 188: count=9 | <div style="font-size:12px;color:rgba(255,255,255,0.8);margin-top:2px">{{ p.weight }}</div>
+Line 189: count=8 | </div>
+Line 190: count=8 | </sc-for>
+Line 191: count=7 | </div>
+Line 192: count=6 | </div>
+Line 193: count=5 | </div>
+Line 194: count=5 | 
+Line 195: count=4 | </div>
+Line 196: count=4 | 
+Line 197: count=4 | <!-- Buy Again Items Section -->
+Line 198: count=5 | <div style="background:#fff;padding:0 16px 16px;">
+Line 199: count=5 | <div style="font-size:18px;font-weight:800;color:#1a1a1a;margin-bottom:12px">Electronics</div>
+Line 200: count=6 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;margin-bottom:24px">
+Line 201: count=6 | <sc-for list="{{ buyAgainElectronics }}" as="p" hint-placeholder-count="6">
+Line 202: count=7 | <div style="width:100%; min-width:0; position:relative">
+Line 203: count=8 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 204: count=8 | <div style="position:absolute;top:0;left:0;background:#1a1a1a;color:#fff;padding:3px 6px;font-size:9px;font-weight:700;border-radius:0 0 8px 0;z-index:2">Buy Again</div>
+Line 205: count=8 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1" onerror="this.style.display='none'" />
+Line 206: count=8 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 207: count=9 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3);z-index:3" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 208: count=9 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 209: count=8 | </div>
+Line 210: count=8 | </sc-if>
+Line 211: count=8 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 212: count=9 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15);z-index:3">
+Line 213: count=9 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 214: count=9 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 215: count=9 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 216: count=8 | </div>
+Line 217: count=8 | </sc-if>
+Line 218: count=7 | </div>
+Line 219: count=8 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 220: count=8 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 221: count=8 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 222: count=8 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 223: count=8 | </sc-if>
+Line 224: count=7 | </div>
+Line 225: count=7 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 226: count=7 | <div style="font-size:12px;font-weight:400;color:#1B6B2A;margin-top:2px">{{ p.offLabel }}</div>
+Line 227: count=7 | </sc-if>
+Line 228: count=7 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 229: count=7 | <div style="font-size:12px;color:#888;margin-top:2px">{{ p.weight }}</div>
+Line 230: count=6 | </div>
+Line 231: count=6 | </sc-for>
+Line 232: count=5 | </div>
+Line 233: count=5 | 
+Line 234: count=5 | <div style="font-size:18px;font-weight:800;color:#1a1a1a;margin-bottom:12px">Fruits and vegetables</div>
+Line 235: count=6 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px">
+Line 236: count=6 | <sc-for list="{{ buyAgainFresh }}" as="p" hint-placeholder-count="6">
+Line 237: count=7 | <div style="width:100%; min-width:0; position:relative">
+Line 238: count=8 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 239: count=8 | <div style="position:absolute;top:0;left:0;background:#1a1a1a;color:#fff;padding:3px 6px;font-size:9px;font-weight:700;border-radius:0 0 8px 0;z-index:2">Buy Again</div>
+Line 240: count=8 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1" onerror="this.style.display='none'" />
+Line 241: count=8 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 242: count=9 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3);z-index:3" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 243: count=9 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 244: count=8 | </div>
+Line 245: count=8 | </sc-if>
+Line 246: count=8 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 247: count=9 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15);z-index:3">
+Line 248: count=9 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 249: count=9 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 250: count=9 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 251: count=8 | </div>
+Line 252: count=8 | </sc-if>
+Line 253: count=7 | </div>
+Line 254: count=8 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 255: count=8 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 256: count=8 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 257: count=8 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 258: count=8 | </sc-if>
+Line 259: count=7 | </div>
+Line 260: count=7 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 261: count=7 | <div style="font-size:12px;font-weight:400;color:#1B6B2A;margin-top:2px">{{ p.offLabel }}</div>
+Line 262: count=7 | </sc-if>
+Line 263: count=7 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 264: count=7 | <div style="font-size:12px;color:#888;margin-top:2px">{{ p.weight }}</div>
+Line 265: count=6 | </div>
+Line 266: count=6 | </sc-for>
+Line 267: count=5 | </div>
+Line 268: count=4 | </div>
+Line 269: count=3 | </div>
+Line 270: count=3 | </sc-if>
+Line 271: count=3 | 
+Line 272: count=3 | 
+Line 273: count=3 | 
+Line 274: count=3 | <!-- ===== HOME MAIN ===== -->
+Line 275: count=3 | <sc-if value="{{ isHomeMain }}" hint-placeholder-val="{{ true }}">
+Line 276: count=3 | 
+Line 277: count=3 | <!-- Delivery header (Scrolls away) -->
+Line 278: count=4 | <div style="background:{{ computedHeaderBg }};transition:background 0.2s;padding-top:4px;">
+Line 279: count=5 | <div style="padding:2px 20px 0">
+Line 280: count=6 | <div style="display:flex;align-items:center;justify-content:space-between">
+Line 281: count=7 | <div>
+Line 282: count=8 | <div style="display:flex;align-items:center;gap:5px">
+Line 283: count=8 | <img src="assets/svg/bolt.svg" style="height:20px;object-fit:contain;filter:{{ computedBoltFilter }}" alt="bolt">
+Line 284: count=8 | <span style="font-size:20px;font-weight:800;letter-spacing:-0.5px;color:{{ computedDeliveryColor }}">{{ deliveryTime }}</span>
+Line 285: count=7 | </div>
+Line 286: count=7 | <div style="font-size:13px;font-weight:700;color:{{ computedDeliverySubColor }};margin-top:1px;opacity:0.9">Other - 32, Smart Amul plaza, 32, Vesh... <span style="font-size:10px">▼</span></div>
+Line 287: count=6 | </div>
+Line 288: count=7 | <div style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;">
+Line 289: count=7 | <img src="assets/svg/user.svg" style="width:30px;height:30px;object-fit:contain;filter:{{ computedUserIconFilter }}">
+Line 290: count=6 | </div>
+Line 291: count=5 | </div>
+Line 292: count=4 | </div>
+Line 293: count=4 | 
+Line 294: count=5 | <div class="store-tab-row">
+Line 295: count=6 | <div onClick="{{ selectZepto }}" class="store-tab {{ zeptoClass }}" style="--active-bg:{{ searchAreaBg }};">
+Line 296: count=6 | <img src="assets/png/zepto.png" style="height:24px; width:100%; object-fit:contain; filter: {{ zeptoFilter }}; transition: filter 0.2s" alt="zepto" onerror="this.outerHTML='<span style=&quot;font-size:16px;color:#8B1A8E;font-style:italic;font-weight:800&quot;>zepto</span>'">
+Line 297: count=5 | </div>
+Line 298: count=6 | <div onClick="{{ selectMonsoon }}" class="store-tab {{ monsoonClass }}" style="--active-bg:{{ searchAreaBg }};">
+Line 299: count=6 | <img src="{{ monsoonImg }}" style="height:24px; width:100%; object-fit:contain;" alt="Monsoon">
+Line 300: count=5 | </div>
+Line 301: count=6 | <div onClick="{{ selectSupermall }}" class="store-tab {{ supermallClass }}" style="--active-bg:{{ searchAreaBg }};">
+Line 302: count=6 | <img src="{{ supermallImg }}" style="height:24px; width:100%; object-fit:contain;" alt="Super Mall">
+Line 303: count=5 | </div>
+Line 304: count=6 | <div onClick="{{ selectFreshStore }}" class="store-tab {{ freshClass }}" style="--active-bg:{{ searchAreaBg }};">
+Line 305: count=6 | <img src="assets/png/fresh.png" style="height:24px; width:100%; object-fit:contain; filter: {{ freshFilter }}; transition: filter 0.2s" alt="Fresh">
+Line 306: count=5 | </div>
+Line 307: count=4 | </div>
+Line 308: count=3 | </div>
+Line 309: count=3 | 
+Line 310: count=3 | <!-- Sticky Search and Tabs Container -->
+Line 311: count=4 | <div style="position:sticky;top:0;z-index:50;background:{{ computedSearchBg }};box-shadow:{{ computedStickyShadow }};transition:background 0.2s, box-shadow 0.2s">
+Line 312: count=4 | 
+Line 313: count=4 | <!-- Search bar -->
+Line 314: count=5 | <div style="padding:12px 0 12px 16px;display:flex;align-items:center;gap:12px">
+Line 315: count=6 | <div onClick="{{ openSearch }}" style="flex:1;height:48px;display:flex;align-items:center;gap:10px;background:#fff;border-radius:24px;padding:0 18px;cursor:pointer;border:1px solid #e8e8e8">
+Line 316: count=6 | <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+Line 317: count=6 | <span style="font-size:14px;color:#aaa;font-weight:400">{{ searchPlaceholder }}</span>
+Line 318: count=5 | </div>
+Line 319: count=6 | <div onClick="{{ selectFriendship }}" style="flex:none;height:48px;border-radius:12px 0 0 12px;overflow:hidden;display:flex;align-items:center;justify-content:center;cursor:pointer">
+Line 320: count=6 | <img src="assets/png/friends.png" style="height:100%;object-fit:contain" alt="Friendship Day">
+Line 321: count=5 | </div>
+Line 322: count=4 | </div>
+Line 323: count=4 | 
+Line 324: count=4 | <!-- Category tabs (scrolled text row) -->
+Line 325: count=4 | <sc-if value="{{ isZeptoStore }}">
+Line 326: count=4 | <sc-if value="{{ isScrolled }}">
+Line 327: count=5 | <div style="background:#fff;padding:8px 0;width:100%;border-bottom:1px solid #eee">
+Line 328: count=6 | <div style="display:flex;overflow-x:auto;padding:0 16px;gap:20px;justify-content:flex-start;align-items:center">
+Line 329: count=6 | <sc-for list="{{ storeTabs }}" as="t" hint-placeholder-count="5">
+Line 330: count=7 | <div onClick="{{ t.onClick }}" style="display:flex;flex-direction:column;align-items:center;cursor:pointer;white-space:nowrap;padding-bottom:4px">
+Line 331: count=7 | <span style="font-size:14px;font-weight:{{ t.fw }};color:#1a1a1a">{{ t.label }}</span>
+Line 332: count=7 | <div style="height:4px;border-radius:2px;background:{{ t.ul }};width:100%;margin-top:4px"></div>
+Line 333: count=6 | </div>
+Line 334: count=6 | </sc-for>
+Line 335: count=5 | </div>
+Line 336: count=4 | </div>
+Line 337: count=4 | </sc-if>
+Line 338: count=4 | </sc-if>
+Line 339: count=4 | 
+Line 340: count=4 | <!-- Non-sticky Category tabs (circles) -->
+Line 341: count=4 | <sc-if value="{{ isZeptoStore }}">
+Line 342: count=4 | <sc-if value="{{ !isScrolled }}">
+Line 343: count=5 | <div style="background:{{ searchAreaBg }};padding:5px 0 1px">
+Line 344: count=6 | <div style="display:flex;overflow-x:auto;padding:0 16px;gap:12px;justify-content:flex-start">
+Line 345: count=6 | <sc-for list="{{ storeTabs }}" as="t" hint-placeholder-count="5">
+Line 346: count=7 | <div onClick="{{ t.onClick }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:3px 4px 3px 4px;position:relative;min-width:65px">
+Line 347: count=8 | <div style="width:56px;height:56px;border-radius:28px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:2px;position:relative;box-shadow:0 2px 4px rgba(0,0,0,0.05)">
+Line 348: count=8 | <sc-if value="{{ t.img }}">
+Line 349: count=8 | <img src="{{ t.img }}" style="width:65%;height:65%;object-fit:contain;" />
+Line 350: count=8 | </sc-if>
+Line 351: count=8 | <sc-if value="{{ !t.img }}">
+Line 352: count=8 | <div style="display:flex;align-items:center;justify-content:center">{{ t.icon }}</div>
+Line 353: count=8 | </sc-if>
+Line 354: count=8 | <sc-if value="{{ t.badge }}" hint-placeholder-val="">
+Line 355: count=8 | <div style="position:absolute;top:0px;right:-4px;background:#E91E63;color:#fff;font-size:9px;font-weight:700;padding:2px 5px;border-radius:6px">{{ t.badge }}</div>
+Line 356: count=8 | </sc-if>
+Line 357: count=7 | </div>
+Line 358: count=7 | <span style="font-size:12px;font-weight:{{ t.fw }};color:{{ t.color }};text-align:center;line-height:1.2;white-space:nowrap">{{ t.label }}</span>
+Line 359: count=7 | <div style="height:4px;border-radius:2px;background:{{ t.ul }};width:36px;margin-top:4px"></div>
+Line 360: count=6 | </div>
+Line 361: count=6 | </sc-for>
+Line 362: count=5 | </div>
+Line 363: count=4 | </div>
+Line 364: count=4 | </sc-if>
+Line 365: count=4 | </sc-if>
+Line 366: count=4 | </sc-if>
+Line 367: count=4 | 
+Line 368: count=3 | </div> <!-- End of sticky delivery header container -->
+Line 369: count=3 | 
+Line 370: count=3 | <!-- PURPLE BANNERS SECTION -->
+Line 371: count=3 | <sc-if value="{{ isHomeMain }}" hint-placeholder-val="{{ true }}">
+Line 372: count=3 | 
+Line 373: count=3 | <sc-if value="{{ showZeptoBanners }}">
+Line 374: count=4 | <div style="background:linear-gradient(180deg, {{ searchAreaBg }} 0%, #fff 100%)">
+Line 375: count=5 | <div style="padding:16px;display:flex;gap:12px;">
+Line 376: count=6 | <div style="flex:1;">
+Line 377: count=6 | <img src="assets/png/0frees.png" style="width:100%; height:auto; display:block; border-radius:12px;" />
+Line 378: count=5 | </div>
+Line 379: count=6 | <div style="flex:1;">
+Line 380: count=6 | <img src="assets/png/Everdaylowpprices.png" style="width:100%; height:auto; display:block; border-radius:12px;" />
+Line 381: count=5 | </div>
+Line 382: count=4 | </div>
+Line 383: count=4 | <!-- Sub Banners -->
+Line 384: count=5 | <div style="padding:0 16px 16px;display:flex;justify-content:space-between;">
+Line 385: count=5 | <div style="font-size:11px;color:#388E3C;font-weight:700"><span style="margin-right:4px">✓</span>₹0 Handling Fee</div>
+Line 386: count=5 | <div style="font-size:11px;color:#388E3C;font-weight:700"><span style="margin-right:4px">✓</span>₹0 Delivery Fee*</div>
+Line 387: count=5 | <div style="font-size:11px;color:#388E3C;font-weight:700"><span style="margin-right:4px">✓</span>₹0 Rain & Surge Fee</div>
+Line 388: count=4 | </div>
+Line 389: count=3 | </div>
+Line 390: count=3 | 
+Line 391: count=3 | <!-- Explore Banner -->
+Line 392: count=4 | <div style="padding:16px 8px;">
+Line 393: count=5 | <div style="background:#D2B3FB;border-radius:16px;padding:0 0 16px 0;overflow:hidden;">
+Line 394: count=5 | <!-- Banner Image -->
+Line 395: count=5 | <img onClick="{{ openCategoryDiscovery }}" style="cursor:pointer;width:100%;height:auto;display:block;margin-bottom:16px;" src="assets/png/explore_banner.png" onerror="this.style.display='none'" />
+Line 396: count=5 | 
+Line 397: count=5 | <!-- Text -->
+Line 398: count=5 | <div style="font-size:18px;font-weight:800;color:#fff;margin-bottom:12px;padding:0 16px;">New categories to explore</div>
+Line 399: count=5 | 
+Line 400: count=5 | <!-- 6 Product Listings -->
+Line 401: count=6 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;padding:0 16px;">
+Line 402: count=6 | <sc-for list="{{ exploreProducts }}" as="p" hint-placeholder-count="6">
+Line 403: count=7 | <div style="width:100%; min-width:0; position:relative">
+Line 404: count=7 | <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
+Line 405: count=7 | <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#E1BEE7;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
+Line 406: count=7 | </sc-if>
+Line 407: count=8 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 408: count=8 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1" onerror="this.style.display='none'" />
+Line 409: count=8 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 410: count=9 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3);z-index:3" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 411: count=9 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 412: count=8 | </div>
+Line 413: count=8 | </sc-if>
+Line 414: count=8 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 415: count=9 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15);z-index:3">
+Line 416: count=9 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 417: count=9 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 418: count=9 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 419: count=8 | </div>
+Line 420: count=8 | </sc-if>
+Line 421: count=7 | </div>
+Line 422: count=8 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 423: count=8 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 424: count=8 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 425: count=8 | <span style="font-size:12px;color:rgba(255,255,255,0.5);text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 426: count=8 | </sc-if>
+Line 427: count=7 | </div>
+Line 428: count=7 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 429: count=7 | <div style="font-size:12px;font-weight:700;color:#4ade80;margin-top:2px">{{ p.offLabel }}</div>
+Line 430: count=7 | </sc-if>
+Line 431: count=7 | <div style="font-size:13px;font-weight:600;color:#fff;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 432: count=7 | <div style="font-size:12px;color:rgba(255,255,255,0.8);margin-top:2px">{{ p.weight }}</div>
+Line 433: count=6 | </div>
+Line 434: count=6 | </sc-for>
+Line 435: count=5 | </div>
+Line 436: count=4 | </div>
+Line 437: count=3 | </div>
+Line 438: count=3 | </sc-if>
+Line 439: count=3 | 
+Line 440: count=3 | <sc-if value="{{ isPharmacyActive }}">
+Line 441: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 442: count=4 | <img src="assets/png/pharmacy_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 443: count=3 | </div>
+Line 444: count=3 | </sc-if>
+Line 445: count=3 | 
+Line 446: count=3 | <sc-if value="{{ isPriceDropActive }}">
+Line 447: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 448: count=4 | <img src="assets/png/price_drop_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 449: count=3 | </div>
+Line 450: count=3 | </sc-if>
+Line 451: count=3 | 
+Line 452: count=3 | <sc-if value="{{ isJewelleryActive }}">
+Line 453: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 454: count=4 | <img src="assets/png/jwellery_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 455: count=3 | </div>
+Line 456: count=3 | </sc-if>
+Line 457: count=3 | 
+Line 458: count=3 | <sc-if value="{{ isMonsoonActive }}">
+Line 459: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 460: count=4 | <img src="assets/png/monsoon store.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" />
+Line 461: count=3 | </div>
+Line 462: count=3 | </sc-if>
+Line 463: count=3 | 
+Line 464: count=3 | <sc-if value="{{ isSupermallActive }}">
+Line 465: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 466: count=4 | <img src="assets/png/supermall.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" />
+Line 467: count=3 | </div>
+Line 468: count=3 | </sc-if>
+Line 469: count=3 | 
+Line 470: count=3 | <sc-if value="{{ isFreshActive }}">
+Line 471: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 472: count=4 | <img src="assets/png/Frersh.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" />
+Line 473: count=3 | </div>
+Line 474: count=3 | </sc-if>
+Line 475: count=3 | 
+Line 476: count=3 | <sc-if value="{{ isPoojaActive }}">
+Line 477: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 478: count=4 | <img src="assets/png/pooja_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 479: count=3 | </div>
+Line 480: count=3 | </sc-if>
+Line 481: count=3 | 
+Line 482: count=3 | <sc-if value="{{ isNightStoreActive }}">
+Line 483: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 484: count=4 | <img src="assets/png/night_store_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 485: count=3 | </div>
+Line 486: count=3 | </sc-if>
+Line 487: count=3 | 
+Line 488: count=3 | <sc-if value="{{ isSaleActive }}">
+Line 489: count=4 | <div style="padding:0;background:linear-gradient(180deg,{{ searchAreaBg }} 0%,#fff 100%)">
+Line 490: count=4 | <img src="assets/png/sale_zone_banner.png" style="width:100%; height:auto; display:block; border-radius:0 0 16px 16px;" onerror="this.style.display='none'"/>
+Line 491: count=3 | </div>
+Line 492: count=3 | </sc-if>
+Line 493: count=3 | 
+Line 494: count=3 | </sc-if>
+Line 495: count=3 | 
+Line 496: count=3 | <!-- Loading spinner -->
+Line 497: count=3 | <sc-if value="{{ isLoading }}" hint-placeholder-val="{{ false }}">
+Line 498: count=4 | <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:120px 0">
+Line 499: count=4 | <div style="width:32px;height:32px;border:3px solid #e0e0e0;border-top-color:#7B2D8E;border-radius:50%;animation:spin 800ms linear infinite"></div>
+Line 500: count=3 | </div>
+Line 501: count=3 | </sc-if>
+Line 502: count=3 | 
+Line 503: count=3 | <!-- Content area (not loading) -->
+Line 504: count=3 | <sc-if value="{{ isNotLoading }}" hint-placeholder-val="{{ true }}">
+Line 505: count=3 | 
+Line 506: count=3 | <!-- Zepto tab: Fresh hero -->
+Line 507: count=3 | <sc-if value="{{ isZeptoFreshTab }}" hint-placeholder-val="{{ true }}">
+Line 508: count=3 | <img src="assets/png/Frersh.png" style="width:100%;height:auto;display:block">
+Line 509: count=3 | </sc-if>
+Line 510: count=3 | 
+Line 511: count=3 | <!-- Zepto All tab: Coupons -->
+Line 512: count=3 | <sc-if value="{{ isZeptoAllTab }}" hint-placeholder-val="{{ false }}">
+Line 513: count=4 | <div style="padding:16px">
+Line 514: count=4 | <div style="font-size:18px;font-weight:700;margin-bottom:12px">Coupons & Offers</div>
+Line 515: count=5 | <div style="display:flex;gap:8px;overflow-x:auto">
+Line 516: count=5 | <sc-for list="{{ coupons }}" as="c" hint-placeholder-count="4">
+Line 517: count=6 | <div style="flex:none;width:130px;background:#E8F5E9;border-radius:14px;padding:14px 10px;text-align:center">
+Line 518: count=6 | <div style="width:32px;height:32px;background:#C8E6C9;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;font-size:14px;color:#2E7D32">✂</div>
+Line 519: count=6 | <div style="font-size:10px;font-weight:800;color:#333;margin-top:6px">FLAT</div>
+Line 520: count=6 | <div style="font-size:18px;font-weight:800">{{ c.amount }}</div>
+Line 521: count=6 | <div style="font-size:10px;color:#666;margin-top:4px;background:rgba(255,255,255,0.6);padding:3px 8px;border-radius:8px">{{ c.min }}</div>
+Line 522: count=5 | </div>
+Line 523: count=5 | </sc-for>
+Line 524: count=4 | </div>
+Line 525: count=3 | </div>
+Line 526: count=3 | </sc-if>
+Line 527: count=3 | 
+Line 528: count=3 | <!-- SuperMall Fashion content -->
+Line 529: count=3 | <sc-if value="{{ isSMFashion }}" hint-placeholder-val="{{ false }}">
+Line 530: count=4 | <div style="padding:16px 12px">
+Line 531: count=5 | <div style="display:flex;gap:12px;overflow-x:auto;padding-bottom:8px">
+Line 532: count=5 | <sc-for list="{{ fashionCats }}" as="fc" hint-placeholder-count="4">
+Line 533: count=6 | <div style="flex:none;width:100px;text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 534: count=7 | <div style="width:100px;height:100px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:40px;position:relative">{{ fc.icon }}
+Line 535: count=7 | <div style="position:absolute;bottom:6px;right:6px;width:20px;height:20px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,0.15)"><span style="font-size:10px">↗</span></div>
+Line 536: count=6 | </div>
+Line 537: count=6 | <div style="font-size:12px;font-weight:600;margin-top:6px">{{ fc.name }}</div>
+Line 538: count=5 | </div>
+Line 539: count=5 | </sc-for>
+Line 540: count=4 | </div>
+Line 541: count=5 | <div style="margin-top:16px;background:linear-gradient(135deg,#2196F3,#00BCD4);border-radius:18px;padding:24px 20px;position:relative;overflow:hidden">
+Line 542: count=5 | <div style="font-size:24px;font-weight:900;color:#fff;font-style:italic">Monsoon Fits</div>
+Line 543: count=5 | <div style="font-size:12px;color:rgba(255,255,255,0.8);margin-top:4px">ORDER NOW</div>
+Line 544: count=5 | <div style="position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:48px;opacity:0.3">🧥</div>
+Line 545: count=4 | </div>
+Line 546: count=3 | </div>
+Line 547: count=3 | </sc-if>
+Line 548: count=3 | 
+Line 549: count=3 | <!-- SuperMall Jewellery content -->
+Line 550: count=3 | <sc-if value="{{ isSMJewellery }}" hint-placeholder-val="{{ false }}">
+Line 551: count=4 | <div>
+Line 552: count=5 | <div style="background:linear-gradient(135deg,#1a1a1a,#333);padding:28px 20px;position:relative;overflow:hidden">
+Line 553: count=5 | <div style="font-size:28px;font-weight:300;color:#fff;font-family:Georgia,serif">Jewellery</div>
+Line 554: count=5 | <div style="font-size:16px;font-weight:700;color:#FFD700;margin-top:4px">UP TO 80% OFF</div>
+Line 555: count=5 | <div style="position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:56px;opacity:0.3">💎</div>
+Line 556: count=4 | </div>
+Line 557: count=5 | <div style="padding:16px">
+Line 558: count=6 | <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+Line 559: count=6 | <span style="font-size:16px;font-weight:700">All eyes on our bestsellers!</span>
+Line 560: count=6 | <span style="font-size:13px;font-weight:600;color:#E91E63;cursor:pointer">See all ›</span>
+Line 561: count=5 | </div>
+Line 562: count=4 | </div>
+Line 563: count=3 | </div>
+Line 564: count=3 | </sc-if>
+Line 565: count=3 | 
+Line 566: count=3 | <!-- SuperMall Deal Store content -->
+Line 567: count=3 | <sc-if value="{{ isSMDealStore }}" hint-placeholder-val="{{ false }}">
+Line 568: count=4 | <div style="padding:20px 16px;text-align:center">
+Line 569: count=4 | <div style="font-size:20px;font-weight:700">Electronics & Appliances 🔌</div>
+Line 570: count=4 | <div style="font-size:13px;color:#888;margin-top:4px">With hassle free returns</div>
+Line 571: count=5 | <div style="display:flex;gap:14px;overflow-x:auto;padding:16px 0">
+Line 572: count=5 | <sc-for list="{{ dealStoreCats }}" as="dc" hint-placeholder-count="5">
+Line 573: count=6 | <div style="flex:none;width:72px;text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 574: count=6 | <div style="width:64px;height:64px;border-radius:16px;background:{{ dc.bg }};display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">{{ dc.icon }}</div>
+Line 575: count=6 | <div style="font-size:10px;font-weight:500;color:#333;margin-top:6px;line-height:1.2">{{ dc.name }}</div>
+Line 576: count=5 | </div>
+Line 577: count=5 | </sc-for>
+Line 578: count=4 | </div>
+Line 579: count=3 | </div>
+Line 580: count=3 | </sc-if>
+Line 581: count=3 | 
+Line 582: count=3 | <!-- Pet Care Banners -->
+Line 583: count=3 | <sc-if value="{{ isPetCareTab }}" hint-placeholder-val="{{ false }}">
+Line 584: count=4 | <div style="padding:16px;display:flex;flex-direction:column;gap:12px;background:#f5f5f5;">
+Line 585: count=4 | <img src="assets/png/pet_toy_button.png" style="width:100%;border-radius:12px;cursor:pointer" onClick="{{ clickPetToys }}" />
+Line 586: count=4 | <img src="assets/png/pet_food_button.png" style="width:100%;border-radius:12px;cursor:pointer" onClick="{{ clickPetFood }}" />
+Line 587: count=3 | </div>
+Line 588: count=3 | </sc-if>
+Line 589: count=3 | 
+Line 590: count=3 | <!-- Product sections -->
+Line 591: count=3 | <sc-for list="{{ homeSections }}" as="sec" hint-placeholder-count="2">
+Line 592: count=4 | <div style="margin-top:4px;background:#fff;padding-bottom:12px">
+Line 593: count=5 | <div style="display:flex;align-items:center;gap:8px;padding:14px 16px 0">
+Line 594: count=5 | <sc-if value="{{ sec.icon }}" hint-placeholder-val="">
+Line 595: count=5 | <span style="font-size:15px">{{ sec.icon }}</span>
+Line 596: count=5 | </sc-if>
+Line 597: count=5 | <span style="font-size:19px;font-weight:800;color:#1a1a1a;flex:none;text-transform:capitalize;letter-spacing:-0.5px">{{ sec.title }}</span>
+Line 598: count=5 | <sc-if value="{{ sec.showDash }}" hint-placeholder-val="{{ true }}">
+Line 599: count=5 | <div style="flex:1;height:0;border-top:1.5px dashed #c8e6c9"></div>
+Line 600: count=5 | </sc-if>
+Line 601: count=4 | </div>
+Line 602: count=4 | <sc-if value="{{ sec.subtitle }}" hint-placeholder-val="">
+Line 603: count=4 | <div style="padding:3px 16px 0;font-size:13px;color:#4CAF50;font-weight:500">{{ sec.subtitle }}</div>
+Line 604: count=4 | </sc-if>
+Line 605: count=4 | <!-- Sub-tabs for Rakhi Picks etc -->
+Line 606: count=4 | <sc-if value="{{ sec.subTabs }}" hint-placeholder-val="{{ false }}">
+Line 607: count=5 | <div style="display:flex;gap:0;overflow-x:auto;padding:10px 16px 0">
+Line 608: count=5 | <sc-for list="{{ sec.subTabs }}" as="st" hint-placeholder-count="5">
+Line 609: count=6 | <div onClick="{{ st.onClick }}" style="flex:none;padding:6px 16px;border-radius:20px;background:{{ st.bg }};border:1.5px solid {{ st.border }};margin-right:8px;cursor:pointer">
+Line 610: count=6 | <span style="font-size:12px;font-weight:{{ st.fw }};color:{{ st.color }}">{{ st.label }}</span>
+Line 611: count=5 | </div>
+Line 612: count=5 | </sc-for>
+Line 613: count=4 | </div>
+Line 614: count=4 | </sc-if>
+Line 615: count=5 | <div style="{{ sec.containerStyle }}">
+Line 616: count=5 | <sc-for list="{{ sec.products }}" as="p" hint-placeholder-count="3">
+Line 617: count=6 | <div style="width:100%; min-width:0;">
+Line 618: count=6 | <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
+Line 619: count=6 | <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#F3E5F5;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
+Line 620: count=6 | </sc-if>
+Line 621: count=7 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 622: count=7 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain" onerror="this.style.display='none'" />
+Line 623: count=7 | <sc-if value="{{ sec.showHeart }}" hint-placeholder-val="{{ false }}">
+Line 624: count=7 | <div style="position:absolute;top:8px;right:8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+Line 625: count=7 | </sc-if>
+Line 626: count=7 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 627: count=8 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3)" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 628: count=8 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 629: count=7 | </div>
+Line 630: count=7 | </sc-if>
+Line 631: count=7 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 632: count=8 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15)">
+Line 633: count=8 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 634: count=8 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 635: count=8 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 636: count=7 | </div>
+Line 637: count=7 | </sc-if>
+Line 638: count=6 | </div>
+Line 639: count=6 | 
+Line 640: count=7 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 641: count=7 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 642: count=7 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 643: count=7 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 644: count=7 | </sc-if>
+Line 645: count=6 | </div>
+Line 646: count=6 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 647: count=6 | <div style="font-size:12px;font-weight:400;color:#1B6B2A;margin-top:2px">{{ p.offLabel }}</div>
+Line 648: count=6 | </sc-if>
+Line 649: count=6 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 650: count=6 | <div style="font-size:12px;color:#888;margin-top:2px">{{ p.weight }}</div>
+Line 651: count=5 | </div>
+Line 652: count=5 | </sc-for>
+Line 653: count=4 | </div>
+Line 654: count=4 | 
+Line 655: count=4 | <sc-if value="{{ sec.showSeeAll }}">
+Line 656: count=5 | <div onClick="{{ sec.onSeeAll }}" style="margin:4px 16px 0;background:#f7f7f7;border-radius:12px;padding:13px;text-align:center;cursor:pointer;border:1px solid #eee" style-active="background:#eee">
+Line 657: count=5 | <span style="font-size:14px;font-weight:600;color:#1a1a1a">See All  ▸</span>
+Line 658: count=4 | </div>
+Line 659: count=4 | </sc-if>
+Line 660: count=4 | 
+Line 661: count=3 | </div>
+Line 662: count=3 | </sc-for>
+Line 663: count=3 | 
+Line 664: count=3 | <!-- Household / categories grid for All tab -->
+Line 665: count=3 | <sc-if value="{{ showAllCategories }}" hint-placeholder-val="{{ false }}">
+Line 666: count=4 | <div style="padding:16px">
+Line 667: count=4 | <div style="font-size:18px;font-weight:700;margin-bottom:14px">Household Essentials</div>
+Line 668: count=5 | <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px">
+Line 669: count=6 | <div style="background:#f5f5f5;border-radius:16px;padding:20px;text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 670: count=6 | <span style="font-size:36px">🪴</span>
+Line 671: count=6 | <div style="font-size:13px;font-weight:600;margin-top:8px">Home Needs</div>
+Line 672: count=5 | </div>
+Line 673: count=6 | <div style="background:#f5f5f5;border-radius:16px;padding:20px;text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 674: count=6 | <span style="font-size:36px">🍳</span>
+Line 675: count=6 | <div style="font-size:13px;font-weight:600;margin-top:8px">Kitchenware</div>
+Line 676: count=5 | </div>
+Line 677: count=4 | </div>
+Line 678: count=5 | <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px">
+Line 679: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 680: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">🧹</div>
+Line 681: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Cleaning</div>
+Line 682: count=5 | </div>
+Line 683: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 684: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">🔌</div>
+Line 685: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Electronics</div>
+Line 686: count=5 | </div>
+Line 687: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 688: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">🐕</div>
+Line 689: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Pet Care</div>
+Line 690: count=5 | </div>
+Line 691: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 692: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">🍃</div>
+Line 693: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Paan Corner</div>
+Line 694: count=5 | </div>
+Line 695: count=4 | </div>
+Line 696: count=3 | </div>
+Line 697: count=4 | <div style="padding:0 16px 16px">
+Line 698: count=4 | <div style="font-size:18px;font-weight:700;margin-bottom:14px">Hobbies & Interests <span style="background:#E91E63;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;vertical-align:middle;margin-left:6px">NEW</span></div>
+Line 699: count=5 | <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px">
+Line 700: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 701: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">🎮</div>
+Line 702: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Toys & Games</div>
+Line 703: count=5 | </div>
+Line 704: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 705: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">📝</div>
+Line 706: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Stationery</div>
+Line 707: count=5 | </div>
+Line 708: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 709: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">⚽</div>
+Line 710: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Sports</div>
+Line 711: count=5 | </div>
+Line 712: count=6 | <div style="text-align:center;cursor:pointer" style-active="opacity:0.8">
+Line 713: count=6 | <div style="width:64px;height:64px;background:#f5f5f5;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">📚</div>
+Line 714: count=6 | <div style="font-size:10px;font-weight:500;margin-top:6px;line-height:1.2">Book Store</div>
+Line 715: count=5 | </div>
+Line 716: count=4 | </div>
+Line 717: count=3 | </div>
+Line 718: count=3 | </sc-if>
+Line 719: count=3 | 
+Line 720: count=3 | </sc-if>
+Line 721: count=3 | <!-- end isNotLoading -->
+Line 722: count=3 | 
+Line 723: count=3 | <div style="height:140px"></div>
+Line 724: count=3 | </sc-if>
+Line 725: count=3 | <!-- end isHomeMain -->
+Line 726: count=3 | 
+Line 727: count=3 | <!-- ==================== CATEGORIES TAB ==================== -->
+Line 728: count=3 | <sc-if value="{{ isCategoriesMain }}" hint-placeholder-val="{{ false }}">
+Line 729: count=4 | <div style="background:#f5f5f5;min-height:100vh;padding-bottom:100px;">
+Line 730: count=4 | <!-- Header -->
+Line 731: count=5 | <div style="background:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.05)">
+Line 732: count=5 | <div style="width:24px"></div> <!-- Spacer for center alignment -->
+Line 733: count=5 | <div style="font-size:18px;font-weight:700;color:#1a1a1a;margin-left:24px;">All Categories</div>
+Line 734: count=6 | <div style="display:flex;gap:16px;">
+Line 735: count=6 | <!-- Wishlist (non-working) -->
+Line 736: count=6 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+Line 737: count=6 | <!-- Search (working) -->
+Line 738: count=7 | <div onClick="{{ openSearch }}" style="cursor:pointer">
+Line 739: count=7 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+Line 740: count=6 | </div>
+Line 741: count=5 | </div>
+Line 742: count=4 | </div>
+Line 743: count=4 | 
+Line 744: count=4 | <!-- Banner -->
+Line 745: count=5 | <div style="padding:16px;background:#fff">
+Line 746: count=5 | <img src="assets/png/sale_zone_banner.png" style="width:100%; height:auto; display:block; border-radius:12px;" onerror="this.style.display='none'"/>
+Line 747: count=4 | </div>
+Line 748: count=4 | 
+Line 749: count=4 | <!-- Main Section Title -->
+Line 750: count=5 | <div style="padding:16px 16px 0; background:#fff;">
+Line 751: count=5 | <div style="font-size:20px;font-weight:800;color:#1a1a1a">Grocery & Kitchen</div>
+Line 752: count=4 | </div>
+Line 753: count=4 | 
+Line 754: count=4 | <!-- Subcategory Blocks -->
+Line 755: count=4 | <sc-for list="{{ groceryKitchenBlocks }}" as="block" hint-placeholder-count="3">
+Line 756: count=5 | <div style="padding:16px; background:#fff; margin-bottom:8px;">
+Line 757: count=5 | <div style="font-size:16px;font-weight:700;color:#333;margin-bottom:12px;">{{ block.title }}</div>
+Line 758: count=5 | 
+Line 759: count=6 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px">
+Line 760: count=6 | <sc-for list="{{ block.products }}" as="p" hint-placeholder-count="6">
+Line 761: count=7 | <div style="width:100%; min-width:0;">
+Line 762: count=7 | <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
+Line 763: count=7 | <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#F3E5F5;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
+Line 764: count=7 | </sc-if>
+Line 765: count=8 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 766: count=8 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain" onerror="this.style.display='none'" />
+Line 767: count=8 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 768: count=9 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3)" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 769: count=9 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 770: count=8 | </div>
+Line 771: count=8 | </sc-if>
+Line 772: count=8 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 773: count=9 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15)">
+Line 774: count=9 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 775: count=9 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 776: count=9 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 777: count=8 | </div>
+Line 778: count=8 | </sc-if>
+Line 779: count=7 | </div>
+Line 780: count=7 | 
+Line 781: count=8 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 782: count=8 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 783: count=8 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 784: count=8 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 785: count=8 | </sc-if>
+Line 786: count=7 | </div>
+Line 787: count=7 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 788: count=7 | <div style="font-size:12px;font-weight:400;color:#1B6B2A;margin-top:2px">{{ p.offLabel }}</div>
+Line 789: count=7 | </sc-if>
+Line 790: count=7 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 791: count=7 | <div style="font-size:12px;color:#888;margin-top:2px">{{ p.weight || '1 pc' }}</div>
+Line 792: count=6 | </div>
+Line 793: count=6 | </sc-for>
+Line 794: count=5 | </div>
+Line 795: count=5 | 
+Line 796: count=6 | <div style="margin-top:16px;text-align:center;">
+Line 797: count=7 | <div style="display:inline-block;padding:8px 24px;border:1px solid #e0e0e0;border-radius:20px;font-size:13px;font-weight:600;color:#444;cursor:pointer;" style-active="background:#f5f5f5">
+Line 798: count=7 | See All
+Line 799: count=6 | </div>
+Line 800: count=5 | </div>
+Line 801: count=4 | </div>
+Line 802: count=4 | </sc-for>
+Line 803: count=3 | </div>
+Line 804: count=3 | </sc-if>
+Line 805: count=3 | 
+Line 806: count=3 | 
+Line 807: count=2 | </div>
+Line 808: count=2 | </sc-if>
+Line 809: count=2 | 
+Line 810: count=2 | 
+Line 811: count=2 | <!-- ==================== SUBCATEGORY VIEW ==================== -->
+Line 812: count=2 | <sc-if value="{{ isSubcategoryView }}" hint-placeholder-val="{{ false }}">
+Line 813: count=3 | <div style="background:#f5f5f5;min-height:100vh;padding-bottom:80px;">
+Line 814: count=3 | <!-- Header -->
+Line 815: count=4 | <div style="background:#fff;padding:12px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.05)">
+Line 816: count=5 | <div onClick="{{ closeSubcategoryView }}" style="width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:50%" style-active="background:#f0f0f0">
+Line 817: count=5 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+Line 818: count=4 | </div>
+Line 819: count=4 | <div style="font-size:18px;font-weight:700;color:#1a1a1a">{{ activeSubcategory }}</div>
+Line 820: count=3 | </div>
+Line 821: count=3 | 
+Line 822: count=3 | <!-- Products Grid -->
+Line 823: count=4 | <div style="padding:12px">
+Line 824: count=5 | <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px">
+Line 825: count=5 | <sc-for list="{{ subcategoryProducts }}" as="p" hint-placeholder-count="6">
+Line 826: count=6 | <div style="background:#fff;border-radius:14px;padding:10px;box-shadow:0 1px 3px rgba(0,0,0,0.04);min-width:0">
+Line 827: count=7 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;overflow:hidden">
+Line 828: count=7 | <img src="{{ p.image_url }}" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.style.display='none'" />
+Line 829: count=7 | <sc-if value="{{ p.showAdd }}">
+Line 830: count=8 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:6px;left:50%;transform:translateX(-50%);padding:5px 24px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3)" style-active="background:#FCE4EC">
+Line 831: count=8 | <span style="color:#E91E63;font-size:12px;font-weight:700">ADD</span>
+Line 832: count=7 | </div>
+Line 833: count=7 | </sc-if>
+Line 834: count=7 | <sc-if value="{{ p.inCart }}">
+Line 835: count=8 | <div style="position:absolute;bottom:6px;left:50%;transform:translateX(-50%);display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden">
+Line 836: count=8 | <div onClick="{{ p.onRemove }}" style="width:30px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-weight:700;font-size:15px">−</div>
+Line 837: count=8 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 838: count=8 | <div onClick="{{ p.onAdd }}" style="width:30px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-weight:700;font-size:15px">+</div>
+Line 839: count=7 | </div>
+Line 840: count=7 | </sc-if>
+Line 841: count=6 | </div>
+Line 842: count=6 | 
+Line 843: count=6 | <div style="margin-top:8px;font-size:11px;color:#888">{{ p.quantity }}</div>
+Line 844: count=6 | 
+Line 845: count=7 | <div style="display:flex;align-items:center;gap:5px;margin-top:8px">
+Line 846: count=7 | <span style="background:#1B6B2A;color:#fff;font-size:12px;font-weight:700;padding:2px 7px;border-radius:4px">₹{{ p.price }}</span>
+Line 847: count=7 | <sc-if value="{{ p.hasDiscount }}">
+Line 848: count=7 | <span style="font-size:11px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 849: count=7 | </sc-if>
+Line 850: count=6 | </div>
+Line 851: count=6 | <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3">{{ p.name }}</div>
+Line 852: count=6 | <div style="font-size:11px;color:#888;margin-top:2px">{{ p.quantity }}</div>
+Line 853: count=5 | </div>
+Line 854: count=5 | </sc-for>
+Line 855: count=4 | </div>
+Line 856: count=3 | </div>
+Line 857: count=2 | </div>
+Line 858: count=1 | </div>
+Line 859: count=1 | </sc-if>
+Line 860: count=1 | 
+Line 861: count=1 | <!-- ==================== CATEGORY DISCOVERY (GAMIFIED) ==================== -->
+Line 862: count=1 | <sc-if value="{{ isCategoryDiscovery }}" hint-placeholder-val="{{ false }}">
+Line 863: count=2 | <div data-screen-label="Category Discovery" style="background:#f5f5f5;min-height:100vh;padding-bottom:100px;">
+Line 864: count=2 | <!-- Top Sticky Plate -->
+Line 865: count=3 | <div style="position:-webkit-sticky;position:sticky;top:0;z-index:10;background:#D2B3FB;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
+Line 866: count=3 | <!-- Header -->
+Line 867: count=4 | <div style="padding:12px 16px;display:flex;align-items:center;gap:12px;">
+Line 868: count=4 | <div onClick="{{ goBack }}" style="cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></div>
+Line 869: count=4 | <div style="font-size:18px;font-weight:700;color:#1a1a1a;">Explore New Categories</div>
+Line 870: count=3 | </div>
+Line 871: count=3 | 
+Line 872: count=3 | <!-- Gamified Progress Meter -->
+Line 873: count=4 | <div style="padding:12px 16px 24px 16px;">
+Line 874: count=4 | <div style="font-size:14px;font-weight:700;margin-bottom:30px;text-align:center;color:#1a1a1a;">Explore more categories to unlock gifts!</div>
+Line 875: count=4 | 
+Line 876: count=5 | <div style="position:relative;height:40px;">
+Line 877: count=5 | <!-- The Track -->
+Line 878: count=5 | <div style="position:absolute;top:20px;left:5%;right:5%;height:6px;background:rgba(255,255,255,0.5);border-radius:3px"></div>
+Line 879: count=5 | <div style="position:absolute;top:20px;left:5%;width:13.3%;height:6px;background:#6D00FF;border-radius:3px;z-index:1"></div>
+Line 880: count=5 | 
+Line 881: count=5 | <!-- Milestones -->
+Line 882: count=5 | <sc-for list="{{ [1, 2, 5, 7, 10, 12, 15] }}" as="m">
+Line 883: count=6 | <div style="position:absolute;top:8px;left:calc(5% + ({{ m }} / 15 * 90%));transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;z-index:2">
+Line 884: count=7 | <div style="opacity:{{ m <= 2 ? 1 : 0.6 }}; margin-bottom:2px">
+Line 885: count=7 | <img src="assets/svg/flag.svg" style="height:12px;width:auto;display:block" />
+Line 886: count=6 | </div>
+Line 887: count=6 | <div style="width:10px;height:10px;border-radius:50%;background:{{ m <= 2 ? '#6D00FF' : '#e0e0e0' }};border:2px solid #fff"></div>
+Line 888: count=6 | <div style="font-size:10px;color:{{ m <= 2 ? '#1a1a1a' : 'rgba(0,0,0,0.5)' }};margin-top:2px;font-weight:600">{{ m }}</div>
+Line 889: count=5 | </div>
+Line 890: count=5 | </sc-for>
+Line 891: count=5 | 
+Line 892: count=5 | <!-- The Scooter -->
+Line 893: count=6 | <div style="position:absolute;top:-4px;left:calc(5% + (2 / 15 * 90%));transform:translateX(-50%);z-index:3;transition:all 0.5s">
+Line 894: count=6 | <img src="assets/svg/scooter2.svg" style="height:24px;width:auto;display:block" onerror="this.style.display='none'" />
+Line 895: count=5 | </div>
+Line 896: count=4 | </div>
+Line 897: count=3 | </div>
+Line 898: count=3 | 
+Line 899: count=3 | <!-- Gift Voucher Banner -->
+Line 900: count=4 | <div onClick="{{ openGiftVouchers }}" style="padding-bottom:12px;cursor:pointer;display:flex;flex-direction:column;">
+Line 901: count=5 | <div style="padding:0 16px;">
+Line 902: count=5 | <img src="assets/png/gift.png" style="width:100%;height:auto;object-fit:cover;display:block;border-radius:12px;" onerror="this.style.display='none'" />
+Line 903: count=4 | </div>
+Line 904: count=5 | <div style="padding:12px 16px 0;">
+Line 905: count=5 | <div style="font-size:16px;font-weight:800;color:#6D00FF">Get additional gifts! 🎁</div>
+Line 906: count=5 | <div style="font-size:13px;color:#6D00FF;margin-top:4px;font-weight:600;line-height:1.4">No questions asked returns with new explored categories</div>
+Line 907: count=4 | </div>
+Line 908: count=3 | </div>
+Line 909: count=2 | </div>
+Line 910: count=2 | 
+Line 911: count=2 | <!-- Scrolling Feed of Categories -->
+Line 912: count=3 | <div style="padding:4px 0">
+Line 913: count=3 | <sc-for list="{{ groceryKitchenBlocks }}" as="cat">
+Line 914: count=4 | <div style="background:#fff;margin-bottom:12px;padding:16px 0">
+Line 915: count=5 | <div style="display:flex;align-items:center;padding:0 16px;margin-bottom:12px">
+Line 916: count=5 | <div style="font-size:16px;font-weight:700">{{ cat.title }}</div>
+Line 917: count=5 | <sc-if value="{{ cat.title === 'Electronics' || cat.title === 'Fruits & Vegetables' }}" hint-placeholder-val="{{ false }}">
+Line 918: count=5 | <div style="background:#E8F5E9;color:#2E7D32;font-size:10px;font-weight:800;padding:4px 8px;border-radius:12px;margin-left:8px;border:1px solid #A5D6A7">EXPLORED ✓</div>
+Line 919: count=5 | </sc-if>
+Line 920: count=4 | </div>
+Line 921: count=4 | 
+Line 922: count=5 | <div style="display:flex;gap:12px;overflow-x:auto;padding:0 16px">
+Line 923: count=5 | <sc-for list="{{ cat.products }}" as="p">
+Line 924: count=6 | <div style="flex:none;width:120px;background:#fff;border-radius:12px;box-shadow:0 2px 6px rgba(0,0,0,0.05)">
+Line 925: count=7 | <div onClick="{{ p.onTap }}" style="position:relative;width:100%;height:120px;background:{{ p.bg }};border-radius:12px 12px 0 0;padding:12px;cursor:pointer">
+Line 926: count=7 | <img src="{{ p.image_url }}" style="width:100%;height:100%;object-fit:contain" />
+Line 927: count=7 | <div style="position:absolute;bottom:-12px;right:8px;background:#fff;border:1px solid #FF3269;color:#FF3269;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:500;box-shadow:0 2px 4px rgba(0,0,0,0.1);cursor:pointer;z-index:2" onClick="{{ p.onAdd }}">+</div>
+Line 928: count=6 | </div>
+Line 929: count=7 | <div style="padding:16px 8px 12px">
+Line 930: count=7 | <div style="font-size:12px;font-weight:700">₹{{ p.price }}</div>
+Line 931: count=7 | <div style="font-size:11px;color:#666;text-decoration:line-through;margin-bottom:4px">₹{{ p.mrp }}</div>
+Line 932: count=7 | <div style="font-size:11px;font-weight:500;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ p.name }}</div>
+Line 933: count=6 | </div>
+Line 934: count=5 | </div>
+Line 935: count=5 | </sc-for>
+Line 936: count=4 | </div>
+Line 937: count=3 | </div>
+Line 938: count=3 | </sc-for>
+Line 939: count=2 | </div>
+Line 940: count=1 | </div>
+Line 941: count=1 | </sc-if>
+Line 942: count=1 | 
+Line 943: count=1 | <!-- ==================== GIFT VOUCHERS SCREEN ==================== -->
+Line 944: count=1 | <sc-if value="{{ isGiftVouchers }}" hint-placeholder-val="{{ false }}">
+Line 945: count=2 | <div data-screen-label="Gift Vouchers" style="background:#f5f5f5;min-height:100vh;padding-bottom:100px;">
+Line 946: count=2 | <!-- Header -->
+Line 947: count=3 | <div style="background:#fff;padding:12px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:10;box-shadow:0 2px 4px rgba(0,0,0,0.05)">
+Line 948: count=3 | <div onClick="{{ goBack }}" style="cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></div>
+Line 949: count=3 | <div style="font-size:18px;font-weight:700">My Rewards</div>
+Line 950: count=2 | </div>
+Line 951: count=2 | 
+Line 952: count=3 | <div style="padding:16px">
+Line 953: count=3 | 
+Line 954: count=3 | <!-- Voucher 1 (Claimed) -->
+Line 955: count=4 | <div style="background:#fff;border-radius:12px;margin-bottom:16px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05)">
+Line 956: count=5 | <div onClick="{{ toggleVoucher1 }}" style="display:flex;padding:16px;align-items:center;gap:16px;cursor:pointer">
+Line 957: count=5 | <img src="assets/png/voucher1.png" style="width:60px;height:60px;border-radius:8px;object-fit:cover;background:#f0f0f0" onerror="this.style.display='none'" />
+Line 958: count=6 | <div style="flex:1">
+Line 959: count=6 | <div style="font-size:10px;font-weight:800;color:#9E9E9E;text-transform:uppercase;margin-bottom:4px">Claimed</div>
+Line 960: count=6 | <div style="font-size:15px;font-weight:700;color:#1a1a1a">Rs 500 off on Mama Earth</div>
+Line 961: count=5 | </div>
+Line 962: count=5 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" style="transform: {{ expandedVoucher === '1' ? 'rotate(180deg)' : 'rotate(0deg)' }};transition:0.3s"><path d="M6 9l6 6 6-6"/></svg>
+Line 963: count=4 | </div>
+Line 964: count=4 | <sc-if value="{{ expandedVoucher === '1' }}" hint-placeholder-val="{{ false }}">
+Line 965: count=5 | <div style="padding:0 16px 16px;font-size:12px;color:#666;line-height:1.5;background:#fff;border-top:1px solid #eee">
+Line 966: count=5 | <strong style="display:inline-block;margin-top:12px;margin-bottom:4px">Terms and Conditions:</strong><br/>
+Line 967: count=5 | - Valid on all Mama Earth products.<br/>
+Line 968: count=5 | - Minimum order value Rs 999.<br/>
+Line 969: count=5 | - Cannot be clubbed with other offers.
+Line 970: count=4 | </div>
+Line 971: count=4 | </sc-if>
+Line 972: count=3 | </div>
+Line 973: count=3 | 
+Line 974: count=3 | <!-- Voucher 2 (Available) -->
+Line 975: count=4 | <div style="background:#fff;border-radius:12px;margin-bottom:16px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05)">
+Line 976: count=5 | <div onClick="{{ toggleVoucher2 }}" style="display:flex;padding:16px;align-items:center;gap:16px;cursor:pointer">
+Line 977: count=5 | <img src="assets/png/voucher2.png" style="width:60px;height:60px;border-radius:8px;object-fit:cover;background:#f0f0f0" onerror="this.style.display='none'" />
+Line 978: count=6 | <div style="flex:1">
+Line 979: count=6 | <div style="font-size:10px;font-weight:800;color:#4CAF50;text-transform:uppercase;margin-bottom:4px">Available</div>
+Line 980: count=6 | <div style="font-size:15px;font-weight:700;color:#1a1a1a">Upto 70% off on Skullcandy</div>
+Line 981: count=5 | </div>
+Line 982: count=5 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" style="transform: {{ expandedVoucher === '2' ? 'rotate(180deg)' : 'rotate(0deg)' }};transition:0.3s"><path d="M6 9l6 6 6-6"/></svg>
+Line 983: count=4 | </div>
+Line 984: count=4 | <sc-if value="{{ expandedVoucher === '2' }}" hint-placeholder-val="{{ false }}">
+Line 985: count=5 | <div style="padding:0 16px 16px;font-size:12px;color:#666;line-height:1.5;background:#fff;border-top:1px solid #eee">
+Line 986: count=5 | <strong style="display:inline-block;margin-top:12px;margin-bottom:4px">Terms and Conditions:</strong><br/>
+Line 987: count=5 | - Valid on select Skullcandy earphones.<br/>
+Line 988: count=5 | - Applicable for next 48 hours.<br/>
+Line 989: count=5 | - Offer auto-applied at checkout.
+Line 990: count=4 | </div>
+Line 991: count=4 | </sc-if>
+Line 992: count=3 | </div>
+Line 993: count=3 | 
+Line 994: count=3 | <!-- Voucher 3 (Locked) -->
+Line 995: count=4 | <div style="background:#fff;border-radius:12px;margin-bottom:16px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05)">
+Line 996: count=5 | <div onClick="{{ toggleVoucher3 }}" style="display:flex;padding:16px;align-items:center;gap:16px;cursor:pointer;opacity:0.6">
+Line 997: count=5 | <img src="assets/png/gift2.png" style="width:60px;height:60px;border-radius:8px;object-fit:cover;background:#f0f0f0" onerror="this.style.display='none'" />
+Line 998: count=6 | <div style="flex:1">
+Line 999: count=6 | <div style="font-size:10px;font-weight:800;color:#F44336;text-transform:uppercase;margin-bottom:4px">Locked</div>
+Line 1000: count=6 | <div style="font-size:15px;font-weight:700;color:#1a1a1a">Mystery Gift Voucher</div>
+Line 1001: count=5 | </div>
+Line 1002: count=5 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" style="transform: {{ expandedVoucher === '3' ? 'rotate(180deg)' : 'rotate(0deg)' }};transition:0.3s"><path d="M6 9l6 6 6-6"/></svg>
+Line 1003: count=4 | </div>
+Line 1004: count=4 | <sc-if value="{{ expandedVoucher === '3' }}" hint-placeholder-val="{{ false }}">
+Line 1005: count=5 | <div style="padding:24px 16px;font-size:14px;color:#1a1a1a;font-weight:600;background:#fff;border-top:1px solid #eee;text-align:center">
+Line 1006: count=5 | 🛒 Buy from <span style="color:#E91E63;font-size:18px;font-weight:800;background:#FCE4EC;padding:2px 8px;border-radius:12px;margin:0 4px">3</span> more categories to unlock this voucher!
+Line 1007: count=4 | </div>
+Line 1008: count=4 | </sc-if>
+Line 1009: count=3 | </div>
+Line 1010: count=3 | 
+Line 1011: count=2 | </div>
+Line 1012: count=1 | </div>
+Line 1013: count=1 | </sc-if>
+Line 1014: count=1 | 
+Line 1015: count=1 | <!-- ==================== SEARCH ==================== -->
+Line 1016: count=1 | <sc-if value="{{ isSearch }}" hint-placeholder-val="{{ false }}">
+Line 1017: count=2 | <div data-screen-label="Search" style="background:#f5f5f5;min-height:100%">
+Line 1018: count=3 | <div style="background:#fff;padding:8px 12px;display:flex;align-items:center;gap:6px">
+Line 1019: count=4 | <div onClick="{{ closeSearch }}" style="width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:50%" style-active="background:#f0f0f0">
+Line 1020: count=4 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+Line 1021: count=3 | </div>
+Line 1022: count=4 | <div style="flex:1;display:flex;align-items:center;gap:10px;background:#f5f5f5;border-radius:24px;padding:10px 16px;position:relative">
+Line 1023: count=4 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+Line 1024: count=5 | <div style="position:relative;flex:1;display:flex;align-items:center;overflow:hidden">
+Line 1025: count=5 | <div style="position:absolute;left:0;right:0;top:0;bottom:0;display:flex;align-items:center;color:#999;font-size:14px;pointer-events:none;white-space:pre"><span style="opacity:0">{{ searchQuery }}</span>{{ searchSuggestionRemaining }}</div>
+Line 1026: count=5 | <input type="text" value="{{ searchQuery }}" onChange="{{ updateSearch }}" onInput="{{ updateSearch }}" onKeyDown="{{ submitSearch }}" placeholder="{{ searchPlaceholder }}" style="border:none;background:none;outline:none;font-size:14px;flex:1;font-family:inherit;color:#1a1a1a;position:relative;z-index:1" autoFocus="{{ true }}"></input>
+Line 1027: count=4 | </div>
+Line 1028: count=4 | <sc-if value="{{ searchQuery }}" hint-placeholder-val="">
+Line 1029: count=4 | <div onClick="{{ clearSearch }}" style="width:20px;height:20px;background:#ccc;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative;z-index:2"><span style="color:#fff;font-size:12px;font-weight:700">×</span></div>
+Line 1030: count=4 | </sc-if>
+Line 1031: count=3 | </div>
+Line 1032: count=2 | </div>
+Line 1033: count=2 | 
+Line 1034: count=2 | <sc-if value="{{ !searchSubmitted }}">
+Line 1035: count=3 | <div style="background:#fff; flex:1; min-height:calc(100vh - 60px);">
+Line 1036: count=3 | <sc-if value="{{ searchRes.length > 0 && searchQuery }}">
+Line 1037: count=3 | <sc-for list="{{ searchRes }}" as="s">
+Line 1038: count=4 | <div onClick="{{ () => clickSearchSuggestion(s.name) }}" style="display:flex; align-items:center; gap:12px; padding:12px 16px; border-bottom:1px solid #f0f0f0; cursor:pointer;" style-active="background:#f9f9f9">
+Line 1039: count=5 | <div style="width:40px; height:40px; border-radius:6px; border:1px solid #eee; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+Line 1040: count=5 | <sc-if value="{{ s.image_url }}" hint-placeholder-val="{{ true }}"><img src="{{ s.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain" onerror="this.style.display='none'" /></sc-if>
+Line 1041: count=5 | <sc-if value="{{ !s.image_url }}" hint-placeholder-val="{{ false }}"><div style="font-size:20px">{{ s.emoji }}</div></sc-if>
+Line 1042: count=4 | </div>
+Line 1043: count=5 | <div style="font-size:15px; font-weight:600; color:#1a1a1a; flex:1;">
+Line 1044: count=5 | {{ s.name }}
+Line 1045: count=4 | </div>
+Line 1046: count=3 | </div>
+Line 1047: count=3 | </sc-for>
+Line 1048: count=3 | </sc-if>
+Line 1049: count=2 | </div>
+Line 1050: count=2 | </sc-if>
+Line 1051: count=2 | 
+Line 1052: count=2 | <sc-if value="{{ searchSubmitted }}">
+Line 1053: count=3 | <div style="padding:12px 16px 4px;font-size:14px;font-weight:700;color:#1a1a1a;">
+Line 1054: count=3 | Showing results for <span style="color:#9C27B0">{{ searchQuery }}</span>
+Line 1055: count=2 | </div>
+Line 1056: count=2 | 
+Line 1057: count=2 | <!-- Filter chips -->
+Line 1058: count=3 | <div style="background:#fff;padding:8px 12px;display:flex;gap:8px;overflow-x:auto;border-bottom:1px solid #f0f0f0">
+Line 1059: count=4 | <div onClick="{{ openFilters }}" style="flex:none;width:36px;height:36px;border:1.5px solid #ddd;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="background:#f5f5f5">
+Line 1060: count=4 | <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>
+Line 1061: count=3 | </div>
+Line 1062: count=4 | <div style="flex:none;padding:8px 14px;border:1.5px solid #ddd;border-radius:10px;display:flex;align-items:center;gap:4px;cursor:pointer" style-active="background:#f5f5f5">
+Line 1063: count=4 | <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+Line 1064: count=4 | <span style="font-size:12px;font-weight:500">Sort</span><span style="font-size:10px">▾</span>
+Line 1065: count=3 | </div>
+Line 1066: count=4 | <div style="flex:none;padding:8px 14px;border:1.5px solid #ddd;border-radius:10px;display:flex;align-items:center;gap:4px;cursor:pointer" style-active="background:#f5f5f5">
+Line 1067: count=4 | <span style="font-size:12px;font-weight:500">Brand</span><span style="font-size:10px">▾</span>
+Line 1068: count=3 | </div>
+Line 1069: count=4 | <div style="flex:none;padding:8px 14px;border:1.5px solid #ddd;border-radius:10px;display:flex;align-items:center;gap:4px;cursor:pointer" style-active="background:#f5f5f5">
+Line 1070: count=4 | <span style="font-size:12px;font-weight:500">Type</span><span style="font-size:10px">▾</span>
+Line 1071: count=3 | </div>
+Line 1072: count=2 | </div>
+Line 1073: count=2 | <!-- Promo -->
+Line 1074: count=3 | <div onClick="{{ selectMonsoon }}" style="cursor:pointer;margin:12px 16px;background:linear-gradient(135deg,#42A5F5 0%,#5C6BC0 100%);border-radius:16px;padding:18px 20px;position:relative;overflow:hidden">
+Line 1075: count=3 | <div style="position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:40px;opacity:0.2">☂️</div>
+Line 1076: count=3 | <div style="font-size:17px;font-weight:700;color:#fff">Monsoon Must-Haves →</div>
+Line 1077: count=3 | <div style="font-size:12px;color:rgba(255,255,255,0.85);margin-top:4px">Shop Umbrellas, Repellents, Snacks & More</div>
+Line 1078: count=2 | </div>
+Line 1079: count=2 | <!-- Results -->
+Line 1080: count=3 | <div style="padding:4px 12px 8px">
+Line 1081: count=4 | <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+Line 1082: count=4 | <sc-for list="{{ searchRes }}" as="p" hint-placeholder-count="6">
+Line 1083: count=5 | <div style="width:100%; min-width:0; position:relative">
+Line 1084: count=5 | <sc-if value="{{ p.isTop3 }}" hint-placeholder-val="{{ true }}">
+Line 1085: count=5 | <div style="position:absolute;top:0;left:0;background:#FFF4E5;color:#E67E22;font-size:9px;font-weight:700;padding:2px 4px;border-top-left-radius:12px;border-bottom-right-radius:6px;z-index:2">Bestseller</div>
+Line 1086: count=5 | </sc-if>
+Line 1087: count=6 | <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
+Line 1088: count=6 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain" onerror="this.style.display='none'" />
+Line 1089: count=6 | <div style="position:absolute;top:8px;right:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+Line 1090: count=6 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 1091: count=7 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3)" style-active="transform:scale(0.9);background:#FCE4EC">
+Line 1092: count=7 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 1093: count=6 | </div>
+Line 1094: count=6 | </sc-if>
+Line 1095: count=6 | <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+Line 1096: count=7 | <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15)">
+Line 1097: count=7 | <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+Line 1098: count=7 | <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+Line 1099: count=7 | <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+Line 1100: count=6 | </div>
+Line 1101: count=6 | </sc-if>
+Line 1102: count=5 | </div>
+Line 1103: count=5 | 
+Line 1104: count=6 | <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+Line 1105: count=6 | <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+Line 1106: count=6 | <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 1107: count=6 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 1108: count=6 | </sc-if>
+Line 1109: count=5 | </div>
+Line 1110: count=5 | <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+Line 1111: count=5 | <div style="font-size:12px;font-weight:400;color:#1B6B2A;margin-top:2px">{{ p.offLabel }}</div>
+Line 1112: count=5 | </sc-if>
+Line 1113: count=5 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+Line 1114: count=5 | <div style="font-size:12px;color:#888;margin-top:2px">{{ p.weight || '1 pc' }}</div>
+Line 1115: count=6 | <div style="display:flex;align-items:center;gap:2px;margin-top:4px">
+Line 1116: count=6 | <svg width="10" height="10" viewBox="0 0 24 24" fill="#1B6B2A" stroke="#1B6B2A" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+Line 1117: count=6 | <span style="font-size:10px;color:#555;font-weight:500">4.7(1k)</span>
+Line 1118: count=5 | </div>
+Line 1119: count=4 | </div>
+Line 1120: count=4 | </sc-for>
+Line 1121: count=3 | </div>
+Line 1122: count=2 | </div>
+Line 1123: count=2 | </sc-if>
+Line 1124: count=2 | <!-- You might also like -->
+Line 1125: count=3 | <div style="margin-top:8px;background:#fff;padding:16px 0">
+Line 1126: count=4 | <div style="display:flex;align-items:center;gap:6px;padding:0 16px">
+Line 1127: count=4 | <span style="font-size:15px">💡</span>
+Line 1128: count=4 | <span style="font-size:15px;font-weight:700">You might also like</span>
+Line 1129: count=3 | </div>
+Line 1130: count=3 | <div style="padding:3px 16px 0;font-size:12px;color:#888">Popular in categories you haven't explored</div>
+Line 1131: count=4 | <div style="display:flex;gap:12px;overflow-x:auto;padding:12px 16px">
+Line 1132: count=4 | <sc-for list="{{ suggested }}" as="p" hint-placeholder-count="3">
+Line 1133: count=5 | <div style="flex:none;width:150px">
+Line 1134: count=5 | <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
+Line 1135: count=5 | <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#F3E5F5;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
+Line 1136: count=5 | </sc-if>
+Line 1137: count=6 | <div style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:40px;position:relative">
+Line 1138: count=6 | {{ p.emoji }}
+Line 1139: count=6 | <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+Line 1140: count=7 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3)" style-active="transform:scale(0.9)">
+Line 1141: count=7 | <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+Line 1142: count=6 | </div>
+Line 1143: count=6 | </sc-if>
+Line 1144: count=5 | </div>
+Line 1145: count=6 | <div style="display:flex;align-items:center;gap:5px;margin-top:8px">
+Line 1146: count=6 | <span style="background:#1B6B2A;color:#fff;font-size:12px;font-weight:700;padding:2px 7px;border-radius:4px">₹{{ p.price }}</span>
+Line 1147: count=6 | <span style="font-size:11px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 1148: count=5 | </div>
+Line 1149: count=5 | <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-top:3px;line-height:1.3">{{ p.name }}</div>
+Line 1150: count=4 | </div>
+Line 1151: count=4 | </sc-for>
+Line 1152: count=3 | </div>
+Line 1153: count=2 | </div>
+Line 1154: count=1 | </div>
+Line 1155: count=1 | </sc-if>
+Line 1156: count=1 | 
+Line 1157: count=1 | <!-- ==================== CART ==================== -->
+Line 1158: count=1 | <sc-if value="{{ isCart }}" hint-placeholder-val="{{ false }}">
+Line 1159: count=2 | <div data-screen-label="Cart" style="background:#f5f5f5;min-height:100%">
+Line 1160: count=3 | <div style="background:#fff;padding:8px 16px 12px;display:flex;align-items:center;gap:12px">
+Line 1161: count=4 | <div onClick="{{ goHome }}" style="width:36px;height:36px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:50%" style-active="background:#f0f0f0">
+Line 1162: count=4 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+Line 1163: count=3 | </div>
+Line 1164: count=4 | <div style="flex:1">
+Line 1165: count=4 | <div style="font-size:16px;font-weight:600">Other <span style="font-size:11px;color:#888">▼</span></div>
+Line 1166: count=4 | <div style="font-size:12px;color:#888">32, Smart Amul plaza, 32, Veshvesvaraiya...</div>
+Line 1167: count=3 | </div>
+Line 1168: count=3 | <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+Line 1169: count=2 | </div>
+Line 1170: count=2 | <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ true }}">
+Line 1171: count=3 | <div style="background:#4CAF50;padding:8px 16px;text-align:center">
+Line 1172: count=3 | <span style="font-size:13px;color:#fff;font-weight:500">Yay! You saved <span style="font-weight:700">{{ savingsStr }}</span> on this order ✓</span>
+Line 1173: count=2 | </div>
+Line 1174: count=2 | </sc-if>
+Line 1175: count=2 | <!-- Category Discounts -->
+Line 1176: count=2 | <sc-if value="{{ totalCategoryDiscount > 0 }}" hint-placeholder-val="{{ false }}">
+Line 1177: count=3 | <div style="background:#fff;margin:8px 12px;border-radius:14px;border:1px solid #4CAF50;overflow:hidden">
+Line 1178: count=4 | <div style="background:#e8f5e9;padding:10px 16px;display:flex;align-items:center;gap:8px">
+Line 1179: count=4 | <span style="font-size:16px">🎉</span>
+Line 1180: count=4 | <span style="font-size:14px;font-weight:700;color:#2E7D32">Category Offers Applied!</span>
+Line 1181: count=3 | </div>
+Line 1182: count=4 | <div style="padding:12px 16px;">
+Line 1183: count=4 | <sc-if value="{{ homeDiscount > 0 }}" hint-placeholder-val="{{ false }}">
+Line 1184: count=5 | <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+Line 1185: count=5 | <span style="font-size:13px;font-weight:500;">Home & Needs Offer</span>
+Line 1186: count=5 | <span style="font-size:13px;font-weight:700;color:#2E7D32">-₹{{ homeDiscount }}</span>
+Line 1187: count=4 | </div>
+Line 1188: count=4 | </sc-if>
+Line 1189: count=4 | <sc-if value="{{ pharmacyDiscount > 0 }}" hint-placeholder-val="{{ false }}">
+Line 1190: count=5 | <div style="display:flex;justify-content:space-between;">
+Line 1191: count=5 | <span style="font-size:13px;font-weight:500;">Pharmacy 20% Off</span>
+Line 1192: count=5 | <span style="font-size:13px;font-weight:700;color:#2E7D32">-₹{{ pharmacyDiscount }}</span>
+Line 1193: count=4 | </div>
+Line 1194: count=4 | </sc-if>
+Line 1195: count=3 | </div>
+Line 1196: count=2 | </div>
+Line 1197: count=2 | </sc-if>
+Line 1198: count=2 | <!-- Coupons -->
+Line 1199: count=3 | <div style="background:#fff;margin:8px 12px;border-radius:14px;border:1px solid #e0e0e0;overflow:hidden">
+Line 1200: count=4 | <div style="background:#eef6f3;padding:10px 16px;display:flex;align-items:center;gap:8px">
+Line 1201: count=4 | <span style="background:#1a5d2a;color:#fff;font-size:9px;font-weight:800;padding:3px 6px;border-radius:4px">NEW</span>
+Line 1202: count=4 | <span style="font-size:13px;font-weight:600;color:#1a5d2a">Apply coupons + payment offers & save more</span>
+Line 1203: count=3 | </div>
+Line 1204: count=4 | <div style="padding:14px 16px">
+Line 1205: count=4 | <div style="font-size:16px;font-weight:700;margin-bottom:12px">Coupons & offers</div>
+Line 1206: count=5 | <div style="display:flex;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1.5px dashed #e0e0e0">
+Line 1207: count=5 | <div style="width:40px;height:40px;border-radius:12px;background:#E0F2F1;display:flex;align-items:center;justify-content:center;flex:none"><span style="font-size:18px">✂️</span></div>
+Line 1208: count=6 | <div style="flex:1;min-width:0">
+Line 1209: count=6 | <div style="font-size:14px;font-weight:600">Save ₹50 with Z-PRIMESAVE50</div>
+Line 1210: count=6 | <div style="font-size:12px;color:#E65100;margin-top:2px">Shop for ₹670 more to apply</div>
+Line 1211: count=5 | </div>
+Line 1212: count=5 | <div style="padding:6px 14px;border:1.5px solid #ccc;border-radius:8px;font-size:12px;font-weight:600;color:#888;flex:none">Locked</div>
+Line 1213: count=4 | </div>
+Line 1214: count=5 | <div style="display:flex;align-items:center;gap:12px;padding-top:12px">
+Line 1215: count=5 | <div style="width:40px;height:40px;border-radius:12px;background:#1a1a2e;display:flex;align-items:center;justify-content:center;flex:none"><span style="font-size:11px;color:#fff;font-weight:700">pay</span></div>
+Line 1216: count=6 | <div style="flex:1;min-width:0">
+Line 1217: count=6 | <div style="font-size:14px;font-weight:600">Get Upto ₹50 Cashback on Amazon Pay</div>
+Line 1218: count=5 | </div>
+Line 1219: count=5 | <div style="padding:6px 14px;border:1.5px solid #2E7D32;border-radius:8px;font-size:12px;font-weight:600;color:#2E7D32;flex:none;cursor:pointer" style-active="background:#E8F5E9">Apply</div>
+Line 1220: count=4 | </div>
+Line 1221: count=3 | </div>
+Line 1222: count=2 | </div>
+Line 1223: count=2 | <!-- Delivery -->
+Line 1224: count=3 | <div style="background:#fff;margin:0 12px 8px;padding:16px;border-radius:14px;border:1px solid #e0e0e0;display:flex;align-items:center;justify-content:space-between">
+Line 1225: count=4 | <div style="display:flex;align-items:center;gap:12px">
+Line 1226: count=4 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+Line 1227: count=5 | <div>
+Line 1228: count=5 | <div style="font-size:16px;font-weight:700">Delivering in 6 mins</div>
+Line 1229: count=5 | <div style="font-size:13px;color:#888">{{ cartCount }} items</div>
+Line 1230: count=4 | </div>
+Line 1231: count=3 | </div>
+Line 1232: count=4 | <div style="display:flex;align-items:center;gap:4px;padding:8px 14px;border:1.5px solid #E65100;border-radius:10px;cursor:pointer" style-active="background:#FFF3E0">
+Line 1233: count=4 | <span style="font-size:14px">📅</span>
+Line 1234: count=4 | <span style="font-size:13px;font-weight:600;color:#E65100">Schedule</span>
+Line 1235: count=3 | </div>
+Line 1236: count=2 | </div>
+Line 1237: count=2 | <!-- Cart items -->
+Line 1238: count=3 | <div style="background:#fff;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;padding:4px 16px">
+Line 1239: count=3 | <sc-for list="{{ enrichedCart }}" as="ci" hint-placeholder-count="2">
+Line 1240: count=4 | <div style="display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid #f0f0f0">
+Line 1241: count=4 | <div style="width:56px;height:56px;background:{{ ci.bg }};border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:28px;flex:none;border:1px solid #f0f0f0">{{ ci.emoji }}</div>
+Line 1242: count=5 | <div style="flex:1;min-width:0">
+Line 1243: count=5 | <div style="font-size:13px;font-weight:500;color:#1a1a1a;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ ci.name }}</div>
+Line 1244: count=5 | <div style="font-size:11px;color:#888;margin-top:2px">{{ ci.weight }}</div>
+Line 1245: count=4 | </div>
+Line 1246: count=5 | <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex:none">
+Line 1247: count=6 | <div style="display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden">
+Line 1248: count=6 | <div onClick="{{ ci.onRemove }}" style="width:30px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-weight:700;font-size:16px" style-active="background:#FCE4EC">−</div>
+Line 1249: count=6 | <div style="width:22px;text-align:center;font-size:14px;font-weight:700;color:#E91E63">{{ ci.qty }}</div>
+Line 1250: count=6 | <div onClick="{{ ci.onAdd }}" style="width:30px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-weight:700;font-size:16px" style-active="background:#FCE4EC">+</div>
+Line 1251: count=5 | </div>
+Line 1252: count=6 | <div style="display:flex;align-items:center;gap:5px">
+Line 1253: count=6 | <sc-if value="{{ ci.hasDiscount }}" hint-placeholder-val="{{ true }}">
+Line 1254: count=6 | <span style="font-size:11px;color:#999;text-decoration:line-through">₹{{ ci.mrp }}</span>
+Line 1255: count=6 | </sc-if>
+Line 1256: count=6 | <span style="font-size:15px;font-weight:700;color:#1B6B2A">₹{{ ci.price }}</span>
+Line 1257: count=5 | </div>
+Line 1258: count=4 | </div>
+Line 1259: count=3 | </div>
+Line 1260: count=3 | </sc-for>
+Line 1261: count=4 | <div style="text-align:center;padding:14px 0 10px">
+Line 1262: count=4 | <span style="font-size:13px;color:#888">Forgot something? </span>
+Line 1263: count=4 | <span onClick="{{ goHome }}" style="font-size:13px;font-weight:600;color:#1565C0;cursor:pointer">Add More Items</span>
+Line 1264: count=3 | </div>
+Line 1265: count=2 | </div>
+Line 1266: count=2 | <!-- New Categories to Explore -->
+Line 1267: count=3 | <div style="background:#D2B3FB;margin:0 12px 8px;border-radius:14px;padding:16px 0 16px 16px">
+Line 1268: count=3 | <div style="font-size:16px;font-weight:800;color:#fff;margin-bottom:12px;">New categories to explore</div>
+Line 1269: count=4 | <div style="display:flex;gap:12px;overflow-x:auto;padding-right:16px;">
+Line 1270: count=4 | <sc-for list="{{ exploreProducts }}" as="p">
+Line 1271: count=5 | <div style="flex:none;width:120px;background:#fff;border-radius:12px;box-shadow:0 2px 6px rgba(0,0,0,0.05)">
+Line 1272: count=6 | <div onClick="{{ p.onTap }}" style="position:relative;width:100%;height:120px;background:{{ p.bg }};border-radius:12px 12px 0 0;padding:12px;cursor:pointer">
+Line 1273: count=6 | <img src="{{ p.image_url }}" style="width:100%;height:100%;object-fit:contain" onerror="this.style.display='none'" />
+Line 1274: count=6 | <div style="position:absolute;bottom:-12px;right:8px;background:#fff;border:1px solid #FF3269;color:#FF3269;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:500;box-shadow:0 2px 4px rgba(0,0,0,0.1);cursor:pointer;z-index:2" onClick="{{ p.onAdd }}">+</div>
+Line 1275: count=5 | </div>
+Line 1276: count=6 | <div style="padding:16px 8px 12px">
+Line 1277: count=6 | <div style="font-size:12px;font-weight:700">₹{{ p.price }}</div>
+Line 1278: count=6 | <div style="font-size:11px;color:#666;text-decoration:line-through;margin-bottom:4px">₹{{ p.mrp }}</div>
+Line 1279: count=6 | <div style="font-size:11px;font-weight:500;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ p.name }}</div>
+Line 1280: count=5 | </div>
+Line 1281: count=4 | </div>
+Line 1282: count=4 | </sc-for>
+Line 1283: count=3 | </div>
+Line 1284: count=2 | </div>
+Line 1285: count=2 | <!-- Price Drop Alert -->
+Line 1286: count=3 | <div style="background:#fff;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;padding:16px 0 16px 16px">
+Line 1287: count=3 | <div style="font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:12px;">Price Drop Alert</div>
+Line 1288: count=4 | <div style="display:flex;gap:12px;overflow-x:auto;padding-right:16px;">
+Line 1289: count=4 | <sc-for list="{{ priceDropItems }}" as="p">
+Line 1290: count=5 | <div style="flex:none;width:140px;background:#fff;border-radius:12px;position:relative;">
+Line 1291: count=6 | <div onClick="{{ p.onTap }}" style="width:100%;height:140px;background:{{ p.bg }};border:1px solid #eee;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer">
+Line 1292: count=7 | <div style="position:absolute;top:6px;right:6px;z-index:2">
+Line 1293: count=7 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+Line 1294: count=6 | </div>
+Line 1295: count=6 | <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1" onerror="this.style.display='none'" />
+Line 1296: count=7 | <div style="position:absolute;bottom:6px;right:6px;width:32px;height:32px;background:#fff;border:1.5px solid #E91E63;border-radius:8px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);z-index:2;cursor:pointer" onClick="{{ p.onAdd }}">
+Line 1297: count=7 | <span style="color:#E91E63;font-size:20px;font-weight:500">+</span>
+Line 1298: count=6 | </div>
+Line 1299: count=5 | </div>
+Line 1300: count=6 | <div style="margin-top:8px;">
+Line 1301: count=7 | <div style="display:flex;align-items:center;gap:6px">
+Line 1302: count=7 | <span style="background:#1B6B2A;color:#fff;font-size:12px;font-weight:700;padding:2px 6px;border-radius:4px">₹{{ p.price }}</span>
+Line 1303: count=7 | <span style="font-size:12px;color:#888;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 1304: count=6 | </div>
+Line 1305: count=6 | <div style="font-size:11px;font-weight:700;color:#1B6B2A;margin-top:4px">₹{{ p.mrp - p.price }} OFF <span style="color:#eee;letter-spacing:2px">- - - - -</span></div>
+Line 1306: count=6 | <div style="font-size:12px;font-weight:600;color:#1a1a1a;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3">{{ p.name }}</div>
+Line 1307: count=6 | <div style="font-size:11px;color:#888;margin-top:2px">{{ p.weight }}</div>
+Line 1308: count=5 | </div>
+Line 1309: count=4 | </div>
+Line 1310: count=4 | </sc-for>
+Line 1311: count=3 | </div>
+Line 1312: count=2 | </div>
+Line 1313: count=2 | <!-- Tip Delivery Partner -->
+Line 1314: count=3 | <div style="background:#EAF5F5;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;overflow:hidden;padding:16px">
+Line 1315: count=4 | <div style="display:flex;background:rgba(0,0,0,0.05);border-radius:20px;padding:4px;margin-bottom:16px">
+Line 1316: count=4 | <div style="flex:1;padding:8px;text-align:center;font-size:13px;font-weight:700;background:#fff;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,0.1)">Give a Tip</div>
+Line 1317: count=4 | <div style="flex:1;padding:8px;text-align:center;font-size:13px;font-weight:600;color:#666">Delivery Instructions</div>
+Line 1318: count=3 | </div>
+Line 1319: count=4 | <div style="display:flex;justify-content:space-between">
+Line 1320: count=5 | <div style="flex:1;padding-right:12px">
+Line 1321: count=5 | <div style="font-size:14px;font-weight:800;color:#1a1a1a">Tip Delivery Partner</div>
+Line 1322: count=5 | <div style="font-size:11px;color:#666;margin-top:4px;line-height:1.4">Help them earn a little extra for their effort. 100% of this tip will go to them.</div>
+Line 1323: count=5 | <div style="font-size:11px;color:#888;margin-top:8px;text-decoration:underline dashed;cursor:pointer">Delivery Partner Safety</div>
+Line 1324: count=4 | </div>
+Line 1325: count=5 | <div style="width:70px;height:70px;flex:none;position:relative;margin-top:-10px">
+Line 1326: count=5 | <img src="assets/png/delivery.png" style="width:100%;height:100%;object-fit:contain" onerror="this.style.display='none'" />
+Line 1327: count=4 | </div>
+Line 1328: count=3 | </div>
+Line 1329: count=4 | <div style="display:flex;gap:8px;margin-top:16px">
+Line 1330: count=5 | <div onClick="{{ tipSelect10 }}" style="flex:1;padding:8px;border:1px solid {{ tip10Border }};border-radius:12px;text-align:center;cursor:pointer;background:{{ tip10Bg }};display:flex;align-items:center;justify-content:center;gap:4px" style-active="opacity:0.8">
+Line 1331: count=5 | <div style="font-size:14px">☕</div>
+Line 1332: count=5 | <div style="font-size:12px;font-weight:700;color:#1a1a1a">₹10</div>
+Line 1333: count=4 | </div>
+Line 1334: count=5 | <div onClick="{{ tipSelect35 }}" style="flex:1;padding:8px;border:1px solid {{ tip35Border }};border-radius:12px;text-align:center;cursor:pointer;background:{{ tip35Bg }};display:flex;align-items:center;justify-content:center;gap:4px" style-active="opacity:0.8">
+Line 1335: count=5 | <div style="font-size:14px">🔺</div>
+Line 1336: count=5 | <div style="font-size:12px;font-weight:700;color:#1a1a1a">₹35</div>
+Line 1337: count=4 | </div>
+Line 1338: count=5 | <div onClick="{{ tipSelect50 }}" style="flex:1;padding:8px;border:1px solid {{ tip50Border }};border-radius:12px;text-align:center;cursor:pointer;background:{{ tip50Bg }};display:flex;align-items:center;justify-content:center;gap:4px" style-active="opacity:0.8">
+Line 1339: count=5 | <div style="font-size:14px">🔶</div>
+Line 1340: count=5 | <div style="font-size:12px;font-weight:700;color:#1a1a1a">₹50</div>
+Line 1341: count=4 | </div>
+Line 1342: count=5 | <div style="flex:1;padding:8px;border:1px solid #ddd;border-radius:12px;text-align:center;cursor:pointer;background:#fff;display:flex;align-items:center;justify-content:center;gap:4px" style-active="opacity:0.8">
+Line 1343: count=5 | <div style="font-size:14px">🔸</div>
+Line 1344: count=5 | <div style="font-size:12px;font-weight:700;color:#1a1a1a">Custom</div>
+Line 1345: count=4 | </div>
+Line 1346: count=3 | </div>
+Line 1347: count=2 | </div>
+Line 1348: count=2 | <!-- Ordering for someone else -->
+Line 1349: count=3 | <div style="background:#fff;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;padding:16px;display:flex;align-items:center;justify-content:space-between">
+Line 1350: count=3 | <span style="font-size:14px;font-weight:600">Ordering for someone else?</span>
+Line 1351: count=4 | <div style="padding:6px 14px;border:1.5px solid #E91E63;border-radius:8px;cursor:pointer" style-active="background:#FCE4EC">
+Line 1352: count=4 | <span style="font-size:12px;font-weight:600;color:#E91E63">Add Details</span>
+Line 1353: count=3 | </div>
+Line 1354: count=2 | </div>
+Line 1355: count=2 | <!-- GST Invoice -->
+Line 1356: count=3 | <div style="background:#fff;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;padding:16px;display:flex;align-items:center;gap:12px;cursor:pointer" style-active="background:#fafafa">
+Line 1357: count=3 | <div style="width:40px;height:40px;border-radius:10px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;flex:none"><span style="font-size:18px">📄</span></div>
+Line 1358: count=4 | <div style="flex:1">
+Line 1359: count=4 | <div style="font-size:14px;font-weight:700">Get GST Invoice</div>
+Line 1360: count=4 | <div style="font-size:12px;color:#888;margin-top:2px">Claim up to 28% with the GST Invoice</div>
+Line 1361: count=3 | </div>
+Line 1362: count=3 | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+Line 1363: count=2 | </div>
+Line 1364: count=2 | <!-- Progress -->
+Line 1365: count=3 | <div style="background:#fff;margin:0 12px 8px;border-radius:14px;border:1px solid #e0e0e0;padding:16px">
+Line 1366: count=3 | <div style="font-size:15px;font-weight:700">Shop {{ remainingStr }} more, Unlock ₹50 OFF</div>
+Line 1367: count=4 | <div style="margin-top:12px;height:5px;background:#e8e8e8;border-radius:3px;overflow:hidden">
+Line 1368: count=4 | <div style="width:{{ progressPct }};height:100%;background:#2E7D32;border-radius:3px"></div>
+Line 1369: count=3 | </div>
+Line 1370: count=4 | <div style="display:flex;justify-content:space-between;margin-top:8px;font-size:10px;color:#888">
+Line 1371: count=4 | <span style="color:#2E7D32;font-weight:600">✓ Free Delivery</span>
+Line 1372: count=4 | <span>₹50 OFF</span><span>₹100 OFF</span><span>₹150 OFF</span>
+Line 1373: count=3 | </div>
+Line 1374: count=2 | </div>
+Line 1375: count=2 | <div style="height:140px"></div>
+Line 1376: count=1 | </div>
+Line 1377: count=1 | </sc-if>
+Line 1378: count=1 | 
+Line 1379: count=1 | <!-- ==================== CONFIRMATION ==================== -->
+Line 1380: count=1 | <sc-if value="{{ isConfirmation }}" hint-placeholder-val="{{ false }}">
+Line 1381: count=2 | <div data-screen-label="Confirmation" style="min-height:100%;background:#fff">
+Line 1382: count=3 | <div style="text-align:center;padding:50px 24px 28px;background:linear-gradient(180deg,#E8F5E9 0%,#fff 100%)">
+Line 1383: count=4 | <div style="width:72px;height:72px;border-radius:50%;background:#2E7D32;display:flex;align-items:center;justify-content:center;margin:0 auto;animation:checkPop 500ms ease-out;box-shadow:0 4px 20px rgba(46,125,50,0.3)">
+Line 1384: count=4 | <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+Line 1385: count=3 | </div>
+Line 1386: count=3 | <div style="font-size:24px;font-weight:800;margin-top:20px;animation:slideUp 400ms ease-out 200ms both">Order Placed!</div>
+Line 1387: count=3 | <div style="font-size:14px;color:#888;margin-top:6px;animation:slideUp 400ms ease-out 300ms both">Your order {{ orderNum }} is on its way</div>
+Line 1388: count=2 | </div>
+Line 1389: count=3 | <div style="margin:0 20px;padding:18px 20px;background:#f8f8f8;border-radius:16px;animation:slideUp 400ms ease-out 400ms both">
+Line 1390: count=4 | <div style="display:flex;justify-content:space-between;align-items:center">
+Line 1391: count=5 | <div>
+Line 1392: count=5 | <div style="font-size:13px;font-weight:500;color:#888">Estimated delivery</div>
+Line 1393: count=5 | <div style="font-size:22px;font-weight:800;color:#2E7D32;margin-top:2px">6 minutes</div>
+Line 1394: count=4 | </div>
+Line 1395: count=5 | <div style="text-align:right">
+Line 1396: count=5 | <div style="font-size:13px;font-weight:500;color:#888">Order total</div>
+Line 1397: count=5 | <div style="font-size:18px;font-weight:700;margin-top:2px">{{ confirmTotal }}</div>
+Line 1398: count=4 | </div>
+Line 1399: count=3 | </div>
+Line 1400: count=2 | </div>
+Line 1401: count=2 | <!-- New This Week -->
+Line 1402: count=3 | <div style="margin:20px;padding:20px;border-radius:20px;background:linear-gradient(135deg,#F3E5F5 0%,#EDE7F6 50%,#E8EAF6 100%);border:2px solid #CE93D8;animation:scaleIn 500ms ease-out 600ms both">
+Line 1403: count=4 | <div style="display:flex;align-items:center;gap:6px">
+Line 1404: count=4 | <span style="font-size:18px">✨</span>
+Line 1405: count=4 | <span style="font-size:16px;font-weight:700;color:#4A148C">New This Week in Exotics</span>
+Line 1406: count=3 | </div>
+Line 1407: count=3 | <div style="font-size:13px;color:#7B2D8E;margin-top:4px">Explore something new while you wait!</div>
+Line 1408: count=4 | <div style="display:flex;gap:10px;overflow-x:auto;padding:12px 0 4px">
+Line 1409: count=4 | <sc-for list="{{ newThisWeek }}" as="p" hint-placeholder-count="3">
+Line 1410: count=5 | <div style="flex:none;width:130px;background:#fff;border-radius:14px;padding:8px;border:1px solid rgba(0,0,0,0.06)">
+Line 1411: count=6 | <div style="width:100%;height:85px;background:{{ p.bg }};border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:30px;position:relative">
+Line 1412: count=6 | {{ p.emoji }}
+Line 1413: count=7 | <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:4px;right:4px;width:26px;height:26px;background:rgba(255,255,255,0.95);border:1.5px solid #E91E63;border-radius:7px;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(0.9)">
+Line 1414: count=7 | <span style="color:#E91E63;font-size:14px;font-weight:700">+</span>
+Line 1415: count=6 | </div>
+Line 1416: count=5 | </div>
+Line 1417: count=6 | <div style="display:flex;align-items:center;gap:4px;margin-top:6px">
+Line 1418: count=6 | <span style="background:#1B6B2A;color:#fff;font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px">₹{{ p.price }}</span>
+Line 1419: count=6 | <span style="font-size:10px;color:#999;text-decoration:line-through">₹{{ p.mrp }}</span>
+Line 1420: count=5 | </div>
+Line 1421: count=5 | <div style="font-size:11px;font-weight:500;color:#1a1a1a;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3">{{ p.name }}</div>
+Line 1422: count=4 | </div>
+Line 1423: count=4 | </sc-for>
+Line 1424: count=3 | </div>
+Line 1425: count=3 | <div onClick="{{ goHome }}" style="margin-top:8px;background:#7B2D8E;color:#fff;text-align:center;padding:12px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer" style-active="opacity:0.85">Explore Exotics →</div>
+Line 1426: count=2 | </div>
+Line 1427: count=3 | <div style="margin:0 20px;animation:slideUp 400ms ease-out 700ms both">
+Line 1428: count=4 | <div style="border:2px solid #1a1a1a;border-radius:14px;padding:14px;text-align:center;cursor:pointer" style-active="background:#f5f5f5">
+Line 1429: count=4 | <span style="font-size:15px;font-weight:700">Track Order</span>
+Line 1430: count=3 | </div>
+Line 1431: count=2 | </div>
+Line 1432: count=3 | <div onClick="{{ goHome }}" style="text-align:center;margin-top:20px;padding-bottom:40px;cursor:pointer">
+Line 1433: count=3 | <span style="font-size:14px;color:#1565C0;font-weight:500">← Back to Home</span>
+Line 1434: count=2 | </div>
+Line 1435: count=1 | </div>
+Line 1436: count=1 | </sc-if>
+Line 1437: count=1 | 
+Line 1438: count=1 | <!-- ==================== PRODUCT DETAIL ==================== -->
+Line 1439: count=1 | <sc-if value="{{ isProductDetail }}" hint-placeholder-val="{{ false }}">
+Line 1440: count=2 | <div data-screen-label="Product Detail" style="height:100%;background:#f5f5f5;position:relative;display:flex;flex-direction:column;z-index:50;">
+Line 1441: count=2 | 
+Line 1442: count=3 | <div style="flex:1;overflow-y:auto;overflow-x:hidden;padding-bottom:20px;">
+Line 1443: count=3 | <!-- Image Header Section -->
+Line 1444: count=4 | <div style="background:#fff;position:relative;padding-bottom:16px;border-bottom-left-radius:16px;border-bottom-right-radius:16px;margin-bottom:12px;">
+Line 1445: count=4 | <!-- Top Action Buttons -->
+Line 1446: count=5 | <div style="position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;z-index:10;">
+Line 1447: count=6 | <div onClick="{{ closeProductDetail }}" style="width:40px;height:40px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.1);cursor:pointer;" style-active="opacity:0.8">
+Line 1448: count=6 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+Line 1449: count=5 | </div>
+Line 1450: count=6 | <div onClick="{{ closeProductDetail }}" style="width:40px;height:40px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.1);cursor:pointer;" style-active="opacity:0.8">
+Line 1451: count=6 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+Line 1452: count=5 | </div>
+Line 1453: count=4 | </div>
+Line 1454: count=4 | 
+Line 1455: count=4 | <!-- Product Image -->
+Line 1456: count=5 | <div style="width:100%;height:350px;display:flex;align-items:center;justify-content:center;padding:40px;position:relative">
+Line 1457: count=5 | <img src="{{ pdProduct.image_url }}" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.style.display='none'" />
+Line 1458: count=5 | 
+Line 1459: count=5 | <!-- Badges on image -->
+Line 1460: count=5 | <sc-if value="{{ pdProduct.offLabel }}">
+Line 1461: count=5 | <div style="position:absolute;top:64px;left:16px;background:#5C1E70;color:#fff;font-size:12px;font-weight:700;padding:4px 8px;border-radius:4px">{{ pdProduct.offLabel }}</div>
+Line 1462: count=5 | </sc-if>
+Line 1463: count=4 | </div>
+Line 1464: count=4 | 
+Line 1465: count=4 | <!-- Dots & Badges -->
+Line 1466: count=5 | <div style="position:relative;height:30px;display:flex;align-items:center;justify-content:center;margin-top:-20px">
+Line 1467: count=6 | <div style="display:flex;gap:6px;">
+Line 1468: count=6 | <div style="width:6px;height:6px;border-radius:50%;background:#1a1a1a;"></div>
+Line 1469: count=6 | <div style="width:6px;height:6px;border-radius:50%;background:#ccc;"></div>
+Line 1470: count=6 | <div style="width:6px;height:6px;border-radius:50%;background:#ccc;"></div>
+Line 1471: count=5 | </div>
+Line 1472: count=5 | 
+Line 1473: count=6 | <div style="position:absolute;right:16px;bottom:0;display:flex;flex-direction:column;align-items:flex-end;gap:12px;z-index:2">
+Line 1474: count=7 | <div style="width:36px;height:36px;border-radius:50%;background:#fff;border:1px solid #eee;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.05);cursor:pointer;" style-active="transform:scale(0.95)">
+Line 1475: count=7 | <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+Line 1476: count=6 | </div>
+Line 1477: count=7 | <div style="display:flex;align-items:center;background:#fff;border:1px solid #eee;border-radius:6px;padding:3px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+Line 1478: count=8 | <div style="background:#1B6B2A;color:#fff;font-size:12px;font-weight:700;padding:2px 4px;border-radius:4px;display:flex;align-items:center;gap:2px;">
+Line 1479: count=8 | 4.5 <svg width="10" height="10" viewBox="0 0 24 24" fill="#fff"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+Line 1480: count=7 | </div>
+Line 1481: count=7 | <span style="font-size:12px;color:#666;font-weight:600;margin-left:6px;margin-right:2px">569</span>
+Line 1482: count=6 | </div>
+Line 1483: count=5 | </div>
+Line 1484: count=4 | </div>
+Line 1485: count=4 | 
+Line 1486: count=4 | <!-- Title & Basic Info -->
+Line 1487: count=5 | <div style="padding:16px;margin-top:10px;">
+Line 1488: count=5 | <div style="font-size:16px;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:inline-block;border-bottom:1.5px dashed #ccc;">WishCare</div>
+Line 1489: count=5 | <div style="font-size:16px;font-weight:500;color:#444;line-height:1.4;margin-bottom:12px;">{{ pdProduct.name }}</div>
+Line 1490: count=5 | <div style="display:inline-block;border:1px solid #e0e0e0;border-radius:6px;padding:4px 8px;font-size:12px;color:#555;font-weight:600;background:#fbfbfb">Net Qty: <span style="font-weight:500">{{ pdProduct.quantity || pdProduct.weight || '1 pc' }}</span></div>
+Line 1491: count=5 | 
+Line 1492: count=5 | <!-- Price & Delivery Row -->
+Line 1493: count=6 | <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;">
+Line 1494: count=7 | <div style="display:flex;align-items:center;gap:8px;">
+Line 1495: count=7 | <div style="background:#1B6B2A;color:#fff;font-size:16px;font-weight:700;padding:4px 8px;border-radius:6px;">₹{{ pdProduct.price }}</div>
+Line 1496: count=7 | <sc-if value="{{ pdProduct.hasDiscount }}">
+Line 1497: count=7 | <div style="color:#1B6B2A;font-size:14px;font-weight:400;">{{ pdProduct.offLabel }}</div>
+Line 1498: count=7 | </sc-if>
+Line 1499: count=6 | </div>
+Line 1500: count=7 | <div style="background:#E8F5E9;color:#1B6B2A;font-size:12px;font-weight:700;padding:4px 8px;border-radius:6px;display:flex;align-items:center;gap:4px;">
+Line 1501: count=7 | <svg width="12" height="12" viewBox="0 0 24 24" fill="#1B6B2A"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 5 mins
+Line 1502: count=6 | </div>
+Line 1503: count=5 | </div>
+Line 1504: count=5 | 
+Line 1505: count=5 | <!-- MRP -->
+Line 1506: count=5 | <sc-if value="{{ pdProduct.hasDiscount }}">
+Line 1507: count=6 | <div style="font-size:13px;color:#888;margin-top:6px;">
+Line 1508: count=6 | <span style="text-decoration:line-through">₹{{ pdProduct.mrp }}</span> MRP (incl. of all taxes)
+Line 1509: count=5 | </div>
+Line 1510: count=5 | </sc-if>
+Line 1511: count=5 | <sc-if value="{{ !pdProduct.hasDiscount }}">
+Line 1512: count=5 | <div style="font-size:13px;color:#888;margin-top:6px;">MRP (incl. of all taxes)</div>
+Line 1513: count=5 | </sc-if>
+Line 1514: count=5 | 
+Line 1515: count=5 | <!-- Variants UI -->
+Line 1516: count=5 | <sc-if value="{{ pdProduct.hasVariants }}">
+Line 1517: count=6 | <div style="margin-top:20px;padding-top:16px;border-top:1px dashed #eee">
+Line 1518: count=6 | <div style="font-size:14px;font-weight:700;margin-bottom:12px;color:#1a1a1a">Available Options</div>
+Line 1519: count=7 | <div style="display:flex;flex-direction:column;gap:12px">
+Line 1520: count=7 | <sc-for list="{{ pdProduct.variants }}" as="v">
+Line 1521: count=8 | <div onClick="{{ v.onSelect }}" style="border:1.5px solid {{ v.isSelected ? '#F02C63' : '#ddd' }};background:{{ v.isSelected ? '#FFF0F4' : '#fff' }};border-radius:12px;padding:12px;display:flex;align-items:center;justify-content:space-between;cursor:pointer" style-active="background:#FFF0F4">
+Line 1522: count=9 | <div>
+Line 1523: count=9 | <div style="font-size:14px;font-weight:600;color:#1a1a1a">{{ v.quantity || v.weight || '1 pc' }}</div>
+Line 1524: count=10 | <div style="display:flex;align-items:center;gap:6px;margin-top:2px">
+Line 1525: count=10 | <span style="font-size:14px;font-weight:700;color:#1a1a1a">₹{{ v.price }}</span>
+Line 1526: count=10 | <sc-if value="{{ v.mrp && v.mrp > v.price }}">
+Line 1527: count=10 | <span style="font-size:12px;color:#999;text-decoration:line-through">₹{{ v.mrp }}</span>
+Line 1528: count=10 | </sc-if>
+Line 1529: count=9 | </div>
+Line 1530: count=8 | </div>
+Line 1531: count=9 | <div style="width:20px;height:20px;border-radius:10px;border:2px solid {{ v.isSelected ? '#F02C63' : '#ddd' }};display:flex;align-items:center;justify-content:center">
+Line 1532: count=9 | <sc-if value="{{ v.isSelected }}">
+Line 1533: count=9 | <div style="width:10px;height:10px;border-radius:5px;background:#F02C63"></div>
+Line 1534: count=9 | </sc-if>
+Line 1535: count=8 | </div>
+Line 1536: count=7 | </div>
+Line 1537: count=7 | </sc-for>
+Line 1538: count=6 | </div>
+Line 1539: count=5 | </div>
+Line 1540: count=5 | </sc-if>
+Line 1541: count=5 | 
+Line 1542: count=4 | </div>
+Line 1543: count=3 | </div>
+Line 1544: count=3 | 
+Line 1545: count=3 | <!-- Hassle Free Exchange -->
+Line 1546: count=4 | <div style="background:#fff;border-radius:16px;margin:0 16px 12px;padding:16px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 4px rgba(0,0,0,0.03);">
+Line 1547: count=5 | <div style="display:flex;align-items:center;gap:12px;">
+Line 1548: count=6 | <div style="width:48px;height:48px;background:linear-gradient(135deg, #E8EAF6, #D1C4E9);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;">
+Line 1549: count=6 | 🛍️
+Line 1550: count=5 | </div>
+Line 1551: count=6 | <div>
+Line 1552: count=6 | <div style="font-size:15px;font-weight:700;color:#1a1a1a;margin-bottom:2px;">Hassle Free Exchange</div>
+Line 1553: count=6 | <div style="font-size:13px;color:#666;">Item has a 2 day(s) exchange window</div>
+Line 1554: count=5 | </div>
+Line 1555: count=4 | </div>
+Line 1556: count=4 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+Line 1557: count=3 | </div>
+Line 1558: count=3 | 
+Line 1559: count=3 | <!-- Product Details Accordion -->
+Line 1560: count=4 | <div style="background:#fff;border-radius:16px;margin:0 16px 12px;padding:20px;">
+Line 1561: count=5 | <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+Line 1562: count=5 | <div style="font-size:16px;font-weight:700;color:#1a1a1a;">Product Details</div>
+Line 1563: count=5 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+Line 1564: count=4 | </div>
+Line 1565: count=4 | 
+Line 1566: count=5 | <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+Line 1567: count=6 | <div>
+Line 1568: count=6 | <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">Brand</div>
+Line 1569: count=6 | <div style="font-size:14px;color:#666;">Zepto Brands</div>
+Line 1570: count=5 | </div>
+Line 1571: count=6 | <div>
+Line 1572: count=6 | <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">Organic</div>
+Line 1573: count=6 | <div style="font-size:14px;color:#666;">No</div>
+Line 1574: count=5 | </div>
+Line 1575: count=6 | <div>
+Line 1576: count=6 | <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">Category</div>
+Line 1577: count=6 | <div style="font-size:14px;color:#666;text-transform:capitalize">{{ pdProduct.category }}</div>
+Line 1578: count=5 | </div>
+Line 1579: count=6 | <div>
+Line 1580: count=6 | <div style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:4px;">Unit</div>
+Line 1581: count=6 | <div style="font-size:14px;color:#666;">{{ pdProduct.quantity || pdProduct.weight || '1 pc' }}</div>
+Line 1582: count=5 | </div>
+Line 1583: count=4 | </div>
+Line 1584: count=4 | 
+Line 1585: count=5 | <div style="border-top:1px solid #eee;padding-top:20px;display:flex;align-items:center;justify-content:space-between;">
+Line 1586: count=5 | <div style="font-size:16px;font-weight:700;color:#1a1a1a;">Vendor Details</div>
+Line 1587: count=5 | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+Line 1588: count=4 | </div>
+Line 1589: count=3 | </div>
+Line 1590: count=2 | </div> <!-- Close scrollable content -->
+Line 1591: count=2 | 
+Line 1592: count=2 | <!-- Sticky Bottom Bar -->
+Line 1593: count=3 | <div style="flex:none;background:#fff;padding:12px 16px;display:flex;align-items:center;gap:12px;box-shadow:0 -4px 12px rgba(0,0,0,0.1);z-index:20;">
+Line 1594: count=4 | <div onClick="{{ openCart }}" style="width:64px;height:52px;border:1px solid #ddd;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;" style-active="background:#f5f5f5">
+Line 1595: count=4 | <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+Line 1596: count=4 | <sc-if value="{{ hasCart }}">
+Line 1597: count=4 | <div style="position:absolute;top:6px;right:10px;background:#F02C63;color:#fff;font-size:11px;font-weight:700;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid #fff;">{{ cartCount }}</div>
+Line 1598: count=4 | </sc-if>
+Line 1599: count=3 | </div>
+Line 1600: count=3 | 
+Line 1601: count=3 | <sc-if value="{{ pdProduct.showAdd }}">
+Line 1602: count=4 | <div onClick="{{ pdProduct.onAdd }}" style="flex:1;height:52px;background:#F02C63;color:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:700;cursor:pointer;" style-active="opacity:0.9">
+Line 1603: count=4 | Add to Cart
+Line 1604: count=3 | </div>
+Line 1605: count=3 | </sc-if>
+Line 1606: count=3 | 
+Line 1607: count=3 | <sc-if value="{{ pdProduct.inCart }}">
+Line 1608: count=4 | <div style="flex:1;height:52px;background:#F02C63;color:#fff;border-radius:12px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;font-size:20px;font-weight:700;">
+Line 1609: count=4 | <div onClick="{{ pdProduct.onRemove }}" style="cursor:pointer;padding:10px;margin-left:-10px">−</div>
+Line 1610: count=4 | <div>{{ pdProduct.qty }}</div>
+Line 1611: count=4 | <div onClick="{{ pdProduct.onAdd }}" style="cursor:pointer;padding:10px;margin-right:-10px">+</div>
+Line 1612: count=3 | </div>
+Line 1613: count=3 | </sc-if>
+Line 1614: count=2 | </div>
+Line 1615: count=1 | </div>
+Line 1616: count=1 | </sc-if>
+Line 1617: count=1 | 
+Line 1618: count=0 | </div>
