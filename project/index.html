@@ -167,9 +167,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
         <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;padding:0 16px;">
           <sc-for list="{{ exploreProducts }}" as="p" hint-placeholder-count="6">
             <div style="width:100%; min-width:0; position:relative">
-              <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-                <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#E1BEE7;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
-              </sc-if>
+
               <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.1)">
                 <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1">
                 <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
@@ -392,9 +390,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
         <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;padding:0 16px;">
           <sc-for list="{{ exploreProducts }}" as="p" hint-placeholder-count="6">
             <div style="width:100%; min-width:0; position:relative">
-              <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-                <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#E1BEE7;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
-              </sc-if>
+
               <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.1)">
                 <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1">
                 <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
@@ -606,9 +602,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 <div style="{{ sec.containerStyle }}">
 <sc-for list="{{ sec.products }}" as="p" hint-placeholder-count="3">
 <div style="width:100%; min-width:0;">
-<sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-<div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#F3E5F5;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
-</sc-if>
+
 <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
 <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain">
 <sc-if value="{{ sec.showHeart }}" hint-placeholder-val="{{ false }}">
@@ -752,9 +746,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
         <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px">
           <sc-for list="{{ block.products }}" as="p" hint-placeholder-count="6">
             <div style="width:100%; min-width:0;">
-              <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-                
-              </sc-if>
+
               <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border:1px solid #e0e0e0;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer">
                 <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain">
                 <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
@@ -1089,9 +1081,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 <div style="display:flex;gap:12px;overflow-x:auto;padding:12px 16px">
 <sc-for list="{{ suggested }}" as="p" hint-placeholder-count="3">
 <div style="flex:none;width:150px">
-<sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-<div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#F3E5F5;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
-</sc-if>
+
 <div style="width:100%;aspect-ratio:1/1;background:{{ p.bg }};border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:40px;position:relative">
 {{ p.emoji }}
 <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
@@ -1233,9 +1223,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;">
 <sc-for list="{{ exploreProducts }}" as="p">
   <div style="width:100%;min-width:0;position:relative">
-    <sc-if value="{{ p.categoryTag }}" hint-placeholder-val="">
-      <div style="font-size:10px;font-weight:600;color:#7B2D8E;background:#E1BEE7;padding:3px 10px;border-radius:12px;display:inline-block;margin-bottom:6px">{{ p.categoryTag }}</div>
-    </sc-if>
+
     <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.1)">
       <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1">
       <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
