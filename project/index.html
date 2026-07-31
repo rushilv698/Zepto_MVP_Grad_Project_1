@@ -2203,7 +2203,7 @@ class Component extends DCLogic {
       
       const homeRotations = {
         'pooja': 6, 'night-store': 5, 'fresh': 12, 'electronics': 15,
-        'toys': 21, 'home': 31, 'fashion': 27, 'mobiles': 18, 'beauty': 48
+        'toys': 21, 'home': 31, 'fashion': 27, 'mobiles': 18, 'beauty': 48, 'pharmacy': 33
       };
       const rotateProds = (prods, slug) => {
         const rot = homeRotations[slug];
@@ -2275,7 +2275,7 @@ class Component extends DCLogic {
 
     const exploreSlugs = ['fresh', 'night-store', 'toys', 'mobiles', 'jewellery', 'pet-care'];
     const exploreProductsRaw = [];
-    const exploreRotations = { 'fresh': 12, 'night-store': 5, 'toys': 21, 'mobiles': 18, 'jewellery': 0, 'pet-care': 0 };
+    const exploreRotations = { 'fresh': 12, 'night-store': 5, 'toys': 21, 'mobiles': 18, 'jewellery': 0, 'pet-care': 0, 'pharmacy': 33 };
     exploreSlugs.forEach(slug => {
       let prods = db.filter(prod => prod.categories && prod.categories.includes(slug));
       const rot = exploreRotations[slug];
@@ -2449,7 +2449,7 @@ class Component extends DCLogic {
       
       const blockRotations = {
         'pooja': 6, 'night-store': 5, 'fresh': 12, 'electronics': 15,
-        'toys': 21, 'home': 31, 'fashion': 27, 'mobiles': 18, 'beauty': 48
+        'toys': 21, 'home': 31, 'fashion': 27, 'mobiles': 18, 'beauty': 48, 'pharmacy': 33
       };
       groceryKitchenBlocks = targetCats.map(c => {
         let prods = db.filter(p => p.categories && p.categories.includes(c.slug));
