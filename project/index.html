@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" id="theme-color-meta" content="#E8D5FF">
 <script src="./support.js"></script>
 </head>
 <body>
 <x-dc>
 
 <helmet>
-<meta name="theme-color" content="{{ computedStatusBg }}">
 <style>
 *{scrollbar-width:none;-ms-overflow-style:none;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 *::-webkit-scrollbar{display:none}
@@ -2532,6 +2532,15 @@ class Component extends DCLogic {
       });
     }
 
+    const computedStatusBgLocal = (screen === 'cart' || screen === 'productDetail' || (this.state.activeNav === 'categories' && screen !== 'categoryDiscovery' && screen !== 'giftVouchers') || (this.state.activeNav === 'buy_again' && screen !== 'categoryDiscovery' && screen !== 'giftVouchers')) ? '#fff' : (isScrolled ? '#fff' : ss.statusBg);
+    
+    try {
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+      if (metaThemeColor) {
+        metaThemeColor.setAttribute('content', computedStatusBgLocal);
+      }
+    } catch(e) {}
+
     return {
       ...this.state,
       searchRes,
@@ -2644,7 +2653,7 @@ class Component extends DCLogic {
       computedStickyBg: isScrolled ? '#fff' : 'transparent',
       computedStickyShadow: isScrolled ? '0 2px 8px rgba(0,0,0,0.05)' : 'none',
       computedHeaderBg: (screen === 'cart' || screen === 'productDetail' || isCategoriesMain || isNavBuyAgain) ? '#fff' : (isScrolled ? '#fff' : ss.headerBg),
-      computedStatusBg: (screen === 'cart' || screen === 'productDetail' || isCategoriesMain || isNavBuyAgain) ? '#fff' : (isScrolled ? '#fff' : ss.statusBg),
+      computedStatusBg: computedStatusBgLocal,
       computedStatusTextColor: (screen === 'cart' || screen === 'productDetail' || isCategoriesMain || isNavBuyAgain) ? '#1a1a1a' : (isScrolled ? '#1a1a1a' : ss.statusTextColor),
       computedSearchBg: isScrolled ? '#fff' : ss.searchAreaBg,
       computedUserIconFilter: isScrolled ? 'brightness(0)' : ((activeStore === 'supermall' || activeTab === 'night-store') ? 'invert(1) brightness(1.5)' : 'none'),
