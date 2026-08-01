@@ -853,8 +853,8 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
   <div style="position:-webkit-sticky;position:sticky;top:0;z-index:10;background:#9E64F7;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
     <!-- Header -->
     <div style="padding:12px 16px;display:flex;align-items:center;gap:12px;">
-      <div onClick="{{ goBack }}" style="cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg></div>
-      <div style="font-size:18px;font-weight:700;color:#1a1a1a;">Explore New Categories</div>
+      <div onClick="{{ goBack }}" style="cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg></div>
+      <div style="font-size:18px;font-weight:700;color:#fff;">Explore New Categories</div>
     </div>
   </div>
 
@@ -864,13 +864,13 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
     <div style="padding:12px 16px 24px 16px;">
       <!-- Categories Explored Tile -->
       <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:20px">
-        <div style="background:rgba(109,0,255,0.15);border:1.5px solid #6D00FF;border-radius:12px;padding:8px 20px;display:flex;align-items:center;gap:8px">
-          <span style="font-size:22px;font-weight:900;color:#6D00FF">2</span>
-          <span style="font-size:13px;font-weight:700;color:#4A0099">Categories Explored</span>
+        <div style="background:rgba(255,255,255,0.2);border:1.5px solid rgba(255,255,255,0.4);border-radius:12px;padding:8px 20px;display:flex;align-items:center;gap:8px">
+          <span style="font-size:22px;font-weight:900;color:#fff">2</span>
+          <span style="font-size:13px;font-weight:700;color:#fff">Categories Explored</span>
         </div>
       </div>
 
-      <div style="font-size:14px;font-weight:700;margin-bottom:30px;text-align:center;color:#1a1a1a;">Explore more categories to unlock gifts!</div>
+      <div style="font-size:14px;font-weight:700;margin-bottom:30px;text-align:center;color:#fff;">Explore more categories to unlock gifts!</div>
       
       <div style="position:relative; width: 100%; padding-top: 14%;">
         <!-- SVG Progress Bar -->
@@ -892,8 +892,8 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
         <img src="assets/png/gift.png" style="width:100%;height:auto;object-fit:cover;display:block;border-radius:12px;">
       </div>
       <div style="padding:12px 16px 0;">
-        <div style="font-size:16px;font-weight:800;color:#6D00FF">Get additional gifts! 🎁</div>
-        <div style="font-size:13px;color:#6D00FF;margin-top:4px;font-weight:600;line-height:1.4">No questions asked returns with new explored categories</div>
+        <div style="font-size:16px;font-weight:800;color:#fff">Get additional gifts! 🎁</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.9);margin-top:4px;font-weight:600;line-height:1.4">No questions asked returns with new explored categories</div>
       </div>
     </div>
   </div>
@@ -999,6 +999,52 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
           </div>
         </div>
       </sc-for>
+    </sc-if>
+    <sc-if value="{{ !hasSearchResults }}">
+      <div style="padding:16px 0;">
+        <!-- New Categories to Explore -->
+        <div style="background:#9E64F7;margin:0 12px 8px;border-radius:14px;padding:16px;overflow:hidden">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+          <div style="font-size:16px;font-weight:800;color:#fff">New categories to explore</div>
+          <div onClick="{{ openCategoryDiscovery }}" style="font-size:12px;font-weight:700;color:#fff;cursor:pointer;text-decoration:underline" style-active="opacity:0.7">Explore all →</div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:12px;">
+        <sc-for list="{{ exploreProducts }}" as="p">
+          <div style="width:100%;min-width:0;position:relative">
+            <div onClick="{{ p.onTap }}" style="width:100%;aspect-ratio:1/1;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.1)">
+              <!-- Category Pill -->
+              <div style="position:absolute;top:0;left:0;right:0;background:rgba(255,50,105,0.9);color:#fff;padding:4px 0;font-size:10px;font-weight:800;text-align:center;z-index:2;text-transform:uppercase;letter-spacing:0.5px;">{{ p.categoryTag }}</div>
+              
+              <img src="{{ p.image_url }}" style="max-width:80%;max-height:80%;object-fit:contain;z-index:1;margin-top:16px;">
+              <sc-if value="{{ p.showAdd }}" hint-placeholder-val="{{ true }}">
+                <div onClick="{{ p.onAdd }}" style="position:absolute;bottom:8px;right:8px;width:34px;height:34px;background:rgba(255,255,255,0.95);border:2px solid #E91E63;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 3px 6px rgba(233,30,99,0.3);z-index:3" style-active="transform:scale(0.9);background:#FCE4EC">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E91E63" stroke-width="3"><path d="M12 5v14M5 12h14"></path></svg>
+                </div>
+              </sc-if>
+              <sc-if value="{{ p.inCart }}" hint-placeholder-val="{{ false }}">
+                <div style="position:absolute;bottom:8px;right:8px;display:flex;align-items:center;background:#fff;border:2px solid #E91E63;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(233,30,99,0.15);z-index:3">
+                  <div onClick="{{ p.onRemove }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">−</div>
+                  <div style="width:20px;text-align:center;font-size:13px;font-weight:700;color:#E91E63">{{ p.qty }}</div>
+                  <div onClick="{{ p.onAdd }}" style="width:30px;height:30px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#E91E63;font-size:16px;font-weight:700" style-active="background:#FCE4EC">+</div>
+                </div>
+              </sc-if>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-top:8px">
+              <span style="background:#1B6B2A;color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:5px">₹{{ p.price }}</span>
+              <sc-if value="{{ p.hasDiscount }}" hint-placeholder-val="{{ true }}">
+                <span style="font-size:12px;color:rgba(255,255,255,0.7);text-decoration:line-through">₹{{ p.mrp }}</span>
+              </sc-if>
+            </div>
+            <sc-if value="{{ p.offLabel }}" hint-placeholder-val="">
+              <div style="font-size:12px;font-weight:700;color:#FFD54F;margin-top:2px">{{ p.offLabel }}</div>
+            </sc-if>
+            <div style="font-size:13px;font-weight:600;color:#fff;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35">{{ p.name }}</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.8);margin-top:2px">{{ p.weightLabel }}</div>
+          </div>
+        </sc-for>
+        </div>
+        </div>
+      </div>
     </sc-if>
   </div>
 </sc-if>
