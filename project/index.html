@@ -12,7 +12,17 @@
 <style>
 *{scrollbar-width:none;-ms-overflow-style:none;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 *::-webkit-scrollbar{display:none}
-body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;padding:16px 0}
+html, body { height: 100%; }
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',system-ui,sans-serif;color:#1a1a1a;-webkit-font-smoothing:antialiased;background:#1a1a1a}
+
+.shell { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px 0; }
+.phone { width:393px; height:852px; background:#fff; overflow:hidden; display:flex; flex-direction:column; border-radius:44px; box-shadow:0 0 0 3px #333, 0 0 60px rgba(0,0,0,0.6); position:relative; transform:translateZ(0); isolate:isolate; }
+
+@media (max-width:760px){
+  html,body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none}
+  .shell { padding:0; align-items:flex-start; min-height:100%; background:#fff; }
+  .phone { width:100%; height:100dvh; max-width:520px; border-radius:0; box-shadow:none; margin:0 auto; border:none; transform:none; isolate:auto; }
+}
 
 .store-tab,.store-tab::before,.store-tab::after{will-change:background,transform;backface-visibility:hidden}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
@@ -94,7 +104,8 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 </helmet>
 
 <!-- Phone shell -->
-<div style="width:393px;max-width:100%;height:852px;background:#fff;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',system-ui,sans-serif;color:#1a1a1a;overflow:hidden;display:flex;flex-direction:column;border-radius:44px;box-shadow:0 0 0 3px #333,0 0 60px rgba(0,0,0,0.6);position:relative;transform:translateZ(0);isolate:isolate">
+<div class="shell">
+<div class="phone">
 
 <!-- Status bar -->
 <div style="flex:none;height:54px;display:flex;align-items:center;justify-content:center;background:{{ computedStatusBg }};z-index:10;padding: 14px 24px 0 24px;transition:background 0.2s">
@@ -1878,7 +1889,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 </div>
 </sc-if>
 
-</sc-if></div> <!-- End of Phone shell -->
+</sc-if></div></div> <!-- End of Phone shell -->
 
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;393px&quot;,&quot;height&quot;:&quot;852px&quot;},&quot;activeStore&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;zepto&quot;,&quot;options&quot;:[&quot;zepto&quot;,&quot;monsoon&quot;,&quot;supermall&quot;,&quot;fresh&quot;],&quot;section&quot;:&quot;Store&quot;},&quot;showLoadingTransition&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;section&quot;:&quot;Behavior&quot;}}">
