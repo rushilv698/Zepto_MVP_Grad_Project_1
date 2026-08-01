@@ -156,7 +156,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
     
     <div style="padding:0 16px;">
       <!-- Explore Banner -->
-      <div style="background:#D2B3FB;border-radius:16px;padding:0 0 16px 0;overflow:hidden;margin-bottom:16px;">
+      <div style="background:#9E64F7;border-radius:16px;padding:0 0 16px 0;overflow:hidden;margin-bottom:16px;">
         <!-- Banner Image -->
         <img onClick="{{ openCategoryDiscovery }}" style="cursor:pointer;width:100%;height:auto;display:block;margin-bottom:16px;" src="./assets/png/explore_banner.png">
         
@@ -379,7 +379,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
     
     <!-- Explore Banner -->
     <div style="padding:16px 8px;">
-      <div style="background:#D2B3FB;border-radius:16px;padding:0 0 16px 0;overflow:hidden;">
+      <div style="background:#9E64F7;border-radius:16px;padding:0 0 16px 0;overflow:hidden;">
         <!-- Banner Image -->
         <img onClick="{{ openCategoryDiscovery }}" style="cursor:pointer;width:100%;height:auto;display:block;margin-bottom:16px;" src="./assets/png/explore_banner.png">
         
@@ -846,7 +846,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 <sc-if value="{{ isCategoryDiscovery }}" hint-placeholder-val="{{ false }}">
 <div data-screen-label="Category Discovery" style="background:#f5f5f5;min-height:100vh;padding-bottom:100px;">
   <!-- Top Sticky Plate -->
-  <div style="position:-webkit-sticky;position:sticky;top:0;z-index:10;background:#D2B3FB;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
+  <div style="position:-webkit-sticky;position:sticky;top:0;z-index:10;background:#9E64F7;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
     <!-- Header -->
     <div style="padding:12px 16px;display:flex;align-items:center;gap:12px;">
       <div onClick="{{ goBack }}" style="cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg></div>
@@ -855,7 +855,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
   </div>
 
   <!-- Scrollable Purple Area -->
-  <div style="background:#D2B3FB;">
+  <div style="background:#9E64F7;">
     <!-- Gamified Progress Meter -->
     <div style="padding:12px 16px 24px 16px;">
       <!-- Categories Explored Tile -->
@@ -1215,7 +1215,7 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 </div>
 </div>
 <!-- New Categories to Explore -->
-<div style="background:#D2B3FB;margin:0 12px 8px;border-radius:14px;padding:16px;overflow:hidden">
+<div style="background:#9E64F7;margin:0 12px 8px;border-radius:14px;padding:16px;overflow:hidden">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
   <div style="font-size:16px;font-weight:800;color:#fff">New categories to explore</div>
   <div onClick="{{ openCategoryDiscovery }}" style="font-size:12px;font-weight:700;color:#fff;cursor:pointer;text-decoration:underline" style-active="opacity:0.7">Explore all →</div>
@@ -1348,9 +1348,9 @@ body{margin:0;background:#1a1a1a;display:flex;justify-content:center;align-items
 <!-- Cart Pay Bar -->
 <div style="position:fixed;bottom:0;left:0;right:0;width:100%;z-index:999;background:#fff;box-shadow:0 -4px 12px rgba(0,0,0,0.05);padding-bottom:env(safe-area-inset-bottom)">
 <div style="background:#E8F5E9;padding:10px 16px;display:flex;align-items:center;justify-content:space-between">
-<div style="display:flex;align-items:center;gap:8px">
-<div style="width:20px;height:20px;background:#E91E63;border-radius:5px;display:flex;align-items:center;justify-content:center">
-<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+<div onClick="{{ toggleBag }}" style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+<div style="width:20px;height:20px;background:{{ bagBg }};border:{{ bagBorder }};border-radius:5px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;">
+<sc-if value="{{ optOutBag }}"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></sc-if>
 </div>
 <span style="font-size:13px;font-weight:500">I don't need a bag</span>
 <span style="font-size:14px">🌿</span>
@@ -1839,7 +1839,7 @@ class Component extends DCLogic {
     isLoading: true, showFilters: false, activeFilter: 'Price',
     selectedTip: null, pdProduct: null, selectedDetailedCategory: null,
     orderNum: '#ZPT' + Math.floor(Math.random() * 900000 + 100000), confirmTotal: '₹229',
-    freshSidebarCat: 'All', db: [], topLevelCategories: [], selectedVariants: {}, isScrolled: false, showOffersPopup: false
+    freshSidebarCat: 'All', db: [], topLevelCategories: [], selectedVariants: {}, isScrolled: false, showOffersPopup: false, optOutBag: true
   };
 
   openCategoryDiscovery = () => this.setState({ screen: 'categoryDiscovery' });
@@ -2044,7 +2044,7 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    const { screen, activeStore, activeTab, cart, activeNav, isLoading, db, pdProduct, selectedVariants, searchQuery, selectedTip, activeSubcategory, topLevelCategories, rawCategories, isScrolled } = this.state;
+    const { screen, activeStore, activeTab, cart, activeNav, isLoading, db, pdProduct, selectedVariants, searchQuery, selectedTip, activeSubcategory, topLevelCategories, rawCategories, isScrolled, optOutBag } = this.state;
     const e = ps => this.enrich(ps);
 
     const isSubcategoryView = screen === 'subcategoryView';
@@ -2475,6 +2475,9 @@ class Component extends DCLogic {
       submitSearch: this.submitSearch,
       closeSearch: this.closeSearch,
       clickSearchSuggestion: this.clickSearchSuggestion,
+      toggleBag: () => this.setState({ optOutBag: !this.state.optOutBag }),
+      bagBg: optOutBag ? '#FF3269' : 'transparent',
+      bagBorder: optOutBag ? 'none' : '2px solid #ccc',
       clearSearch: this.clearSearch,
       isHome: screen === 'home', 
       isSearch: screen === 'search', 
