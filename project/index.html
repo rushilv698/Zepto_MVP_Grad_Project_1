@@ -1791,13 +1791,13 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe 
 
       <!-- Right: Cart Button -->
       <div onClick="{{ openCart }}" style="pointer-events:auto; background: #E91E63; border-radius: 16px; padding: 10px 16px; display:flex; align-items:center; gap:8px; cursor:pointer; color:#fff; min-width: 90px; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: -10px; flex-shrink: 0;">
-        <sc-if value="{{ lastAddedImage }}" hint-placeholder-val="{{ false }}">
+        <sc-if value="{{ hasCartAndImage }}" hint-placeholder-val="{{ false }}">
           <div style="width:36px; height:36px; flex-shrink:0; border-radius:6px; background:#fff; display:flex; align-items:center; justify-content:center; {{ cartAnim ? 'animation: swishIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);' : '' }}">
             <img src="{{ lastAddedImage }}" style="width:100%; height:100%; border-radius:6px; object-fit:contain;">
           </div>
         </sc-if>
-        <sc-if value="{{ noLastAddedImage }}" hint-placeholder-val="{{ true }}">
-          <span style="font-size:24px; margin-right:4px;">🛒</span>
+        <sc-if value="{{ emptyOrNoImage }}" hint-placeholder-val="{{ true }}">
+          <img src="assets/png/cart.png" style="width:28px; height:28px; margin-right:4px; object-fit:contain;">
         </sc-if>
         <div>
           <div style="font-size:16px; font-weight:800; line-height:1;">Cart</div>
@@ -2671,6 +2671,8 @@ class Component extends DCLogic {
       sections: processedSections,
       
       cartCount, hasCart: cartCount > 0,
+      hasCartAndImage: cartCount > 0 && !!this.state.lastAddedImage,
+      emptyOrNoImage: cartCount === 0 || !this.state.lastAddedImage,
       cartTotal,
       cartTotalStr: '₹' + cartTotal,
       enrichedCart: enrichedCartItems,
